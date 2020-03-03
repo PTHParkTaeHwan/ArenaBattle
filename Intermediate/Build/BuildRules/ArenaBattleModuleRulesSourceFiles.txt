@@ -1,0 +1,3 @@
+C:\dev\ArenaBattle\Source\ArenaBattle\ArenaBattle.Build.cs
+C:\dev\ArenaBattle\Source\ArenaBattle.Target.cs
+C:\dev\ArenaBattle\Source\ArenaBattleEditor.Target.cs

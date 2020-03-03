@@ -1,0 +1,11 @@
+Debug/
+bin/
+bin-int/
+.vs/
+Binaries/
+Intermediate/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
