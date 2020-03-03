@@ -1,11 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2455.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2455.pdb".
-  Performing 3 actions (4 in parallel)
-  ABPawn.cpp
-  [2/3] Link UE4Editor-ArenaBattle.dll
-  [3/3] Link UE4Editor-ArenaBattle.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.exp 개체를 생성하고 있습니다.
+  Creating makefile for hot reloading ArenaBattleEditor (ini files are newer than UBTMakefile)
+  Compiling game modules for hot reload
+  Parsing headers for ArenaBattleEditor
+    Running UnrealHeaderTool "C:\dev\ArenaBattle\ArenaBattle.uproject" "C:\dev\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ArenaBattleEditor in 9.6129882 seconds
+  Performing 5 actions (4 in parallel)
+  ABGameMode.cpp
+  ABCharacter.gen.cpp
+  ABCharacter.cpp
+  [4/5] Link UE4Editor-ArenaBattle-299.dll
+  [5/5] Link UE4Editor-ArenaBattle-299.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-299.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-299.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-299.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-299.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 8.08 seconds (Local executor: 5.05 seconds)
+  Total build time: 27.91 seconds (Local executor: 7.46 seconds)
