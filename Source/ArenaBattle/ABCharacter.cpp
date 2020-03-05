@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ABCharacter.h"
-
+#include "ABAnimInstance.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -184,6 +184,8 @@ void AABCharacter::ViewChange()
 
 void AABCharacter::Attack()
 {
-	ABLOG_S(Warning);
+	auto AnimInstance = Cast<UABAnimInstance>(GetMesh()->GetAnimInstance());
+	if (nullptr == AnimInstance) return;
+	AnimInstance->PlayAttackMontage();
 }
 
