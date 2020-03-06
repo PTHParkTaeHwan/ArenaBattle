@@ -1,16 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading ArenaBattleEditor (ini files are newer than UBTMakefile)
   Compiling game modules for hot reload
   Parsing headers for ArenaBattleEditor
     Running UnrealHeaderTool "C:\dev\ArenaBattle\ArenaBattle.uproject" "C:\dev\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ArenaBattleEditor in 7.8528961 seconds
-  Performing 5 actions (9 in parallel)
-  ABGameMode.cpp
+  Reflection code generated for ArenaBattleEditor in 7.4617494 seconds
+  Performing 6 actions (9 in parallel)
   ABCharacter.gen.cpp
   ABCharacter.cpp
-  [4/5] Link UE4Editor-ArenaBattle-7140.dll
-  [5/5] Link UE4Editor-ArenaBattle-7140.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7140.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7140.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7140.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7140.suppressed.exp 개체를 생성하고 있습니다.
+  ArenaBattle.init.gen.cpp
+  ABGameMode.cpp
+  [5/6] Link UE4Editor-ArenaBattle-3354.dll
+  [6/6] Link UE4Editor-ArenaBattle-3354.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-3354.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-3354.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-3354.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-3354.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 25.77 seconds (Local executor: 4.52 seconds)
+  Total build time: 14.53 seconds (Local executor: 4.32 seconds)

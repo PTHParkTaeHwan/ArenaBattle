@@ -82,6 +82,22 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRadius_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "Attack" },
+				{ "ModuleRelativePath", "ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AttackRadius = { UE4CodeGen_Private::EPropertyClass::Float, "AttackRadius", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020815, 1, nullptr, STRUCT_OFFSET(AABCharacter, AttackRadius), METADATA_PARAMS(NewProp_AttackRadius_MetaData, ARRAY_COUNT(NewProp_AttackRadius_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRange_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "Attack" },
+				{ "ModuleRelativePath", "ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_AttackRange = { UE4CodeGen_Private::EPropertyClass::Float, "AttackRange", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020815, 1, nullptr, STRUCT_OFFSET(AABCharacter, AttackRange), METADATA_PARAMS(NewProp_AttackRange_MetaData, ARRAY_COUNT(NewProp_AttackRange_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABAnim_MetaData[] = {
 				{ "ModuleRelativePath", "ABCharacter.h" },
 			};
@@ -143,10 +159,13 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 				{ "Category", "Camera" },
 				{ "EditInline", "true" },
 				{ "ModuleRelativePath", "ABCharacter.h" },
+				{ "ToolTip", "UPROPERTY(VisibleAnywhere, Category = Weapon)\n       USkeletalMeshComponent* Weapon;" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArm = { UE4CodeGen_Private::EPropertyClass::Object, "SpringArm", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AABCharacter, SpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(NewProp_SpringArm_MetaData, ARRAY_COUNT(NewProp_SpringArm_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackRadius,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackRange,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ABAnim,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MaxCombo,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentCombo,
@@ -174,7 +193,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABCharacter, 315833456);
+	IMPLEMENT_CLASS(AABCharacter, 1228714353);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABCharacter(Z_Construct_UClass_AABCharacter, &AABCharacter::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

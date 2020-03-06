@@ -2,6 +2,8 @@
 
 #include "ABCharacter.h"
 #include "ABAnimInstance.h"
+#include "ABWeapon.h"
+#include "DrawDebugHelpers.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -31,6 +33,21 @@ AABCharacter::AABCharacter()
 	{
 		GetMesh()->SetAnimInstanceClass(WARRIOR_ANIM.Class);
 	}
+	////무기 부착
+	//FName WeaponSocket(TEXT("hand_rSocket"));
+	//if (GetMesh()->DoesSocketExist(WeaponSocket))
+	//{
+	//	Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WEAPON"));
+	//	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_WEAPON(TEXT("/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight"));
+	//	if (SK_WEAPON.Succeeded())
+	//	{ 
+	//		Weapon->SetSkeletalMesh(SK_WEAPON.Object);
+	//	}
+
+	//	Weapon->SetupAttachment(GetMesh(), WeaponSocket);
+	//}
+
+	//화면 형식
 	SetControlMode(EControlMode::GTA);
 
 	ArmLengthSpeed = 3.0f;
@@ -44,6 +61,10 @@ AABCharacter::AABCharacter()
 
 	//콜리젼 기본값 지정
 	GetCapsuleComponent()->SetCollisionProfileName(TEXT("ABCharacter"));
+
+	//디버그 모드 설정, 공격시 충돌 탐색 범위가 눈에 보인다.
+	AttackRange = 200.0f;
+	AttackRadius = 50.5f;
 }
 
 // Called when the game starts or when spawned
@@ -51,6 +72,12 @@ void AABCharacter::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	FName WeaponSocket(TEXT("hand_rSocket"));
+	auto CurWeapon = GetWorld()->SpawnActor<AABWeapon>(FVector::ZeroVector, FRotator::ZeroRotator);
+	if (nullptr != CurWeapon)
+	{
+		CurWeapon->AttachToComponent(GetMesh(), FAttachmentTransformRules::SnapToTargetIncludingScale, WeaponSocket);
+	}
 }
 
 void AABCharacter::SetControlMode(EControlMode NewControlMode)
@@ -128,6 +155,20 @@ void AABCharacter::PostInitializeComponents()
 		}
 	});
 	ABAnim->OnAttackHitCheck.AddUObject(this, &AABCharacter::AttackCheck);
+}
+
+float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
+{
+	float FinalDamage = Super::TakeDamage(DamageAmount, DamageEvent, EventInstigator, DamageCauser);
+	ABLOG(Warning, TEXT("Actor : %s took Damage : %f"), *GetName(), FinalDamage);
+	
+	if (FinalDamage > 0.0f)
+	{
+		ABAnim->SetDeadAnim();
+		SetActorEnableCollision(false);
+	}
+
+	return FinalDamage;
 }
 
 // Called to bind functionality to input
@@ -254,16 +295,39 @@ void AABCharacter::AttackCheck()
 	bool bResult = GetWorld()->SweepSingleByChannel(
 		HitResult,
 		GetActorLocation(),
-		GetActorLocation() + GetActorForwardVector()*200.0f,
+		GetActorLocation() + GetActorForwardVector()*AttackRange,
 		FQuat::Identity,
 		ECollisionChannel::ECC_GameTraceChannel2,
-		FCollisionShape::MakeSphere(50.0f),
+		FCollisionShape::MakeSphere(AttackRadius),
 		Params);
+
+#if ENABLE_DRAW_DEBUG
+
+	FVector TraceVec = GetActorForwardVector() * AttackRange;
+	FVector Center = GetActorLocation() + TraceVec * 0.5f;
+	float HalfHeight = AttackRange * 0.5f + AttackRadius;
+	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
+	FColor DrawColor = bResult ? FColor::Green : FColor::Red;
+	float DebugLifeTime = 5.0f;
+
+	DrawDebugCapsule(GetWorld(),
+		Center,
+		HalfHeight,
+		AttackRadius,
+		CapsuleRot,
+		DrawColor,
+		false,
+		DebugLifeTime);
+
+#endif
 	if (bResult)
 	{
 		if (HitResult.Actor.IsValid())
 		{
 			ABLOG(Warning, TEXT("Hit ActorName: %s"), *HitResult.Actor->GetName());
+
+			FDamageEvent DamageEvent;
+			HitResult.Actor->TakeDamage(1050.0f, DamageEvent, GetController(), this);
 		}
 	}
 }
