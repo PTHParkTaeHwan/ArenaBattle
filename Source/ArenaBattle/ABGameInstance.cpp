@@ -2,6 +2,13 @@
 
 #include "ABGameInstance.h"
 
+UABGameInstance::UABGameInstance()
+{
 
+}
 
-
+void UABGameInstance::Init()
+{
+	Super::Init();
+	ABLOG_S(Warning);
+}
