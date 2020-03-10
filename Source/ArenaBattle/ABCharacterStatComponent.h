@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "ArenaBattle.h"
 #include "Components/ActorComponent.h"
 #include "ABCharacterStatComponent.generated.h"
 
@@ -19,6 +19,7 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+	virtual void InitializeComponent() override;
 
 public:	
 	// Called every frame

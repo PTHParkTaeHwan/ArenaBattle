@@ -599,3 +599,54 @@ LogInit: Object subsystem initialized
 [2020.03.10-02.01.18:246][163]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2020.03.10-02.01.18:360][168]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
 [2020.03.10-02.01.26:175][376]LogSlate: Took 0.002293 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.10-02.06.41:048][793]LogHotReload: New module detected: UE4Editor-ArenaBattle-8719.dll
+[2020.03.10-02.06.42:075][797]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-02.06.42:482][797]LogClass: ABCharacterData HotReload.
+[2020.03.10-02.06.42:486][797]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-02.06.42:696][797]LogHotReload: Re-instancing ABCharacterStatComponent after hot-reload.
+[2020.03.10-02.06.51:575][797]LogStats: FPlatformStackWalk::StackWalkAndDump -  8.876 s
+[2020.03.10-02.06.51:575][797]LogOutputDevice: Error: === Handled ensure: ===
+[2020.03.10-02.06.51:575][797]LogOutputDevice: Error: 
+[2020.03.10-02.06.51:575][797]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp] [Line: 1608]
+[2020.03.10-02.06.51:576][797]LogOutputDevice: Error: Reinstancing non-actor (/Game/Book/Maps/Step2.Step2:PersistentLevel.ABCharacter_6.CHARACTERSTAT); failed to resolve archetype object - property values may be lost.
+[2020.03.10-02.06.51:576][797]LogOutputDevice: Error: Stack: 
+[2020.03.10-02.06.51:576][797]LogOutputDevice: Error: [Callstack] 0x00000000E6F7B706 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
+[2020.03.10-02.06.51:576][797]LogOutputDevice: Error: [Callstack] 0x00000000E6CDAE3A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
+[2020.03.10-02.06.51:577][797]LogOutputDevice: Error: [Callstack] 0x00000000E6CEECD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:430]
+[2020.03.10-02.06.51:577][797]LogOutputDevice: Error: [Callstack] 0x00000000D3E1E784 UE4Editor-UnrealEd.dll!ReplaceObjectHelper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1608]
+[2020.03.10-02.06.51:578][797]LogOutputDevice: Error: [Callstack] 0x00000000D3E1C8AA UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1958]
+[2020.03.10-02.06.51:578][797]LogOutputDevice: Error: [Callstack] 0x00000000D3E1BB9D UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1467]
+[2020.03.10-02.06.51:578][797]LogOutputDevice: Error: [Callstack] 0x00000000D3E168FC UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:660]
+[2020.03.10-02.06.51:579][797]LogOutputDevice: Error: [Callstack] 0x00000000D3E17B80 UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:904]
+[2020.03.10-02.06.51:579][797]LogOutputDevice: Error: [Callstack] 0x00000000B92AC5AF UE4Editor-HotReload.dll!FHotReloadModule::ReinstanceClass() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1288]
+[2020.03.10-02.06.51:580][797]LogOutputDevice: Error: [Callstack] 0x00000000B92AC875 UE4Editor-HotReload.dll!FHotReloadModule::ReinstanceClasses() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1271]
+[2020.03.10-02.06.51:580][797]LogOutputDevice: Error: [Callstack] 0x00000000B92A4EE6 UE4Editor-HotReload.dll!TBaseRawMethodDelegateInstance<0,FHotReloadModule,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:503]
+[2020.03.10-02.06.51:581][797]LogOutputDevice: Error: [Callstack] 0x00000000E74FDB85 UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2020.03.10-02.06.51:581][797]LogOutputDevice: Error: [Callstack] 0x00000000E7826898 UE4Editor-CoreUObject.dll!UClassReplaceHotReloadClasses() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:775]
+[2020.03.10-02.06.51:581][797]LogOutputDevice: Error: [Callstack] 0x00000000E78094A9 UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:900]
+[2020.03.10-02.06.51:582][797]LogOutputDevice: Error: [Callstack] 0x00000000E759A7F7 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:788]
+[2020.03.10-02.06.51:582][797]LogOutputDevice: Error: [Callstack] 0x00000000E6B84190 UE4Editor-Core.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2020.03.10-02.06.51:583][797]LogOutputDevice: Error: [Callstack] 0x00000000E6D95E91 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:487]
+[2020.03.10-02.06.51:583][797]LogOutputDevice: Error: [Callstack] 0x00000000E6D95207 UE4Editor-Core.dll!FModuleManager::LoadModule() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:338]
+[2020.03.10-02.06.51:583][797]LogOutputDevice: Error: [Callstack] 0x00000000B92A317C UE4Editor-HotReload.dll!FHotReloadModule::DoHotReloadInternal() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:811]
+[2020.03.10-02.06.51:584][797]LogOutputDevice: Error: [Callstack] 0x00000000B92A2E11 UE4Editor-HotReload.dll!FHotReloadModule::DoHotReloadFromIDE() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1542]
+[2020.03.10-02.06.51:584][797]LogOutputDevice: Error: [Callstack] 0x00000000B92B3E97 UE4Editor-HotReload.dll!FHotReloadModule::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1486]
+[2020.03.10-02.06.51:584][797]LogOutputDevice: Error: [Callstack] 0x00000000E6BCB646 UE4Editor-Core.dll!FTicker::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\containers\ticker.cpp:82]
+[2020.03.10-02.06.51:585][797]LogOutputDevice: Error: [Callstack] 0x00000000747D8503 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3505]
+[2020.03.10-02.06.51:585][797]LogOutputDevice: Error: [Callstack] 0x00000000747E6BD0 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2020.03.10-02.06.51:585][797]LogOutputDevice: Error: [Callstack] 0x00000000747E6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2020.03.10-02.06.51:586][797]LogOutputDevice: Error: [Callstack] 0x00000000747F4177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2020.03.10-02.06.51:586][797]LogOutputDevice: Error: [Callstack] 0x00000000747F5B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2020.03.10-02.06.51:586][797]LogOutputDevice: Error: [Callstack] 0x000000002BE07BD4 KERNEL32.DLL!UnknownFunction []
+[2020.03.10-02.06.51:586][797]LogOutputDevice: Error: [Callstack] 0x000000002DBACED1 ntdll.dll!UnknownFunction []
+[2020.03.10-02.06.51:587][797]LogOutputDevice: Error: 
+[2020.03.10-02.06.51:593][797]LogStats:                SubmitErrorReport -  0.000 s
+[2020.03.10-02.06.53:074][797]LogStats:                    SendNewReport -  1.481 s
+[2020.03.10-02.06.53:074][797]LogStats:             FDebug::EnsureFailed - 10.376 s
+[2020.03.10-02.06.53:142][797]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-02.06.53:293][797]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-02.06.53:443][797]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2020.03.10-02.06.53:445][797]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-02.06.53:493][797]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-02.06.53:521][797]Display: HotReload took 11.4s.
+[2020.03.10-02.06.58:225][812]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
