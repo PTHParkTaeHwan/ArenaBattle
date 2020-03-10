@@ -6,6 +6,7 @@
 #include "ABCharacterStatComponent.h"
 #include "DrawDebugHelpers.h"
 #include "WidgetComponent.h"
+#include "ABCharacterWidget.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -163,6 +164,14 @@ void AABCharacter::PostInitializeComponents()
 		ABAnim->SetDeadAnim();
 		SetActorEnableCollision(false);
 	});
+
+	//위젯과 케릭터 데이터 연동
+	auto CharacterWidget = Cast<UABCharacterWidget>(HPBarWidget->GetUserWidgetObject());
+	if (nullptr != CharacterWidget)
+	{
+
+		CharacterWidget->BindCharacterStat(CharacterStat);
+	}
 }
 
 float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEvent, AController * EventInstigator, AActor * DamageCauser)
