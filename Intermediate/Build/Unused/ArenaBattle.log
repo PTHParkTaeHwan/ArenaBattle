@@ -2,9 +2,9 @@
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
   ABCharacter.cpp
-  [2/3] Link UE4Editor-ArenaBattle-39.dll
-  [3/3] Link UE4Editor-ArenaBattle-39.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.suppressed.exp 개체를 생성하고 있습니다.
+  [2/3] Link UE4Editor-ArenaBattle-7037.dll
+  [3/3] Link UE4Editor-ArenaBattle-7037.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7037.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7037.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7037.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-7037.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 7.82 seconds (Local executor: 5.75 seconds)
+  Total build time: 7.58 seconds (Local executor: 5.95 seconds)

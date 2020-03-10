@@ -5,6 +5,7 @@
 #include "ABWeapon.h"
 #include "ABCharacterStatComponent.h"
 #include "DrawDebugHelpers.h"
+#include "WidgetComponent.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -14,10 +15,11 @@ AABCharacter::AABCharacter()
 	SpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("SPRINGARM"));
 	Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("CAMERA"));
 	CharacterStat = CreateDefaultSubobject<UABCharacterStatComponent>(TEXT("CHARACTERSTAT"));
-
+	HPBarWidget = CreateDefaultSubobject<UWidgetComponent>(TEXT("HPBARWIDGET"));
 
 	SpringArm->SetupAttachment(GetCapsuleComponent());
 	Camera->SetupAttachment(SpringArm);
+	HPBarWidget->SetupAttachment(GetMesh());
 
 	GetMesh()->SetRelativeLocationAndRotation(FVector(0.0f, 0.0f, -88.0f), FRotator(0.0f, -90.0f, 0.0f));
 	SpringArm->TargetArmLength = 400.0f;
@@ -36,19 +38,6 @@ AABCharacter::AABCharacter()
 	{
 		GetMesh()->SetAnimInstanceClass(WARRIOR_ANIM.Class);
 	}
-	////무기 부착
-	//FName WeaponSocket(TEXT("hand_rSocket"));
-	//if (GetMesh()->DoesSocketExist(WeaponSocket))
-	//{
-	//	Weapon = CreateDefaultSubobject<USkeletalMeshComponent>(TEXT("WEAPON"));
-	//	static ConstructorHelpers::FObjectFinder<USkeletalMesh> SK_WEAPON(TEXT("/Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight"));
-	//	if (SK_WEAPON.Succeeded())
-	//	{ 
-	//		Weapon->SetSkeletalMesh(SK_WEAPON.Object);
-	//	}
-
-	//	Weapon->SetupAttachment(GetMesh(), WeaponSocket);
-	//}
 
 	//화면 형식
 	SetControlMode(EControlMode::GTA);
@@ -68,6 +57,17 @@ AABCharacter::AABCharacter()
 	//디버그 모드 설정, 공격시 충돌 탐색 범위가 눈에 보인다.
 	AttackRange = 200.0f;
 	AttackRadius = 50.5f;
+
+	//UI 부착
+	//HPBar
+	HPBarWidget->SetRelativeLocation(FVector(0.0f, 0.0f, 180.0f));
+	HPBarWidget->SetWidgetSpace(EWidgetSpace::Screen);
+	static ConstructorHelpers::FClassFinder<UUserWidget> UI_HUD(TEXT("/Game/Book/UI/UI_HPBAR.UI_HPBAR_C"));
+	if (UI_HUD.Succeeded())
+	{
+		HPBarWidget->SetWidgetClass(UI_HUD.Class);
+		HPBarWidget->SetDrawSize(FVector2D(150.0f, 50.0f));
+	}
 }
 
 // Called when the game starts or when spawned

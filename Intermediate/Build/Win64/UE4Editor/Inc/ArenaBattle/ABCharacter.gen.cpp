@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 	ARENABATTLE_API UFunction* Z_Construct_UFunction_AABCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABAnimInstance_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABCharacterStatComponent_NoRegister();
@@ -149,6 +150,14 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 			auto NewProp_IsAttacking_SetBit = [](void* Obj){ ((AABCharacter*)Obj)->IsAttacking = 1; };
 			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsAttacking = { UE4CodeGen_Private::EPropertyClass::Bool, "IsAttacking", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000020815, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AABCharacter), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_IsAttacking_SetBit)>::SetBit, METADATA_PARAMS(NewProp_IsAttacking_MetaData, ARRAY_COUNT(NewProp_IsAttacking_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HPBarWidget_MetaData[] = {
+				{ "Category", "UI" },
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HPBarWidget = { UE4CodeGen_Private::EPropertyClass::Object, "HPBarWidget", RF_Public|RF_Transient|RF_MarkAsNative, 0x00100000000a0009, 1, nullptr, STRUCT_OFFSET(AABCharacter, HPBarWidget), Z_Construct_UClass_UWidgetComponent_NoRegister, METADATA_PARAMS(NewProp_HPBarWidget_MetaData, ARRAY_COUNT(NewProp_HPBarWidget_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Camera_MetaData[] = {
 				{ "Category", "Camera" },
 				{ "EditInline", "true" },
@@ -188,6 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CanNextCombo,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsComboInputOn,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_IsAttacking,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HPBarWidget,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_Camera,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_SpringArm,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CharacterStat,
@@ -211,7 +221,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABCharacter, 4120023968);
+	IMPLEMENT_CLASS(AABCharacter, 1209999802);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABCharacter(Z_Construct_UClass_AABCharacter, &AABCharacter::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
