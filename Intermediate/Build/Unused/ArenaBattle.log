@@ -1,13 +1,10 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
   Performing 3 actions (4 in parallel)
-  ABCharacterStatComponent.cpp
-  [2/3] Link UE4Editor-ArenaBattle-6319.dll
-  [3/3] Link UE4Editor-ArenaBattle-6319.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6319.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6319.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6319.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6319.suppressed.exp 개체를 생성하고 있습니다.
-ArenaBattle.cpp.obj : warning LNK4206: 미리 컴파일된 형식 정보를 찾을 수 없습니다. ''이(가) 링크되지 않았거나 덮어쓰여졌습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-ABPawn.cpp.obj : warning LNK4206: 미리 컴파일된 형식 정보를 찾을 수 없습니다. ''이(가) 링크되지 않았거나 덮어쓰여졌습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-ABPlayerController.cpp.obj : warning LNK4206: 미리 컴파일된 형식 정보를 찾을 수 없습니다. ''이(가) 링크되지 않았거나 덮어쓰여졌습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  ABCharacter.cpp
+  [2/3] Link UE4Editor-ArenaBattle-39.dll
+  [3/3] Link UE4Editor-ArenaBattle-39.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-39.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 7.22 seconds (Local executor: 5.25 seconds)
+  Total build time: 7.82 seconds (Local executor: 5.75 seconds)

@@ -1,0 +1,1112 @@
+﻿Log file open, 03/10/20 12:00:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ArenaBattle
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2065922031) SRandInit(-2065922031).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.306699
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.164s to configure plugins.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../dev/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-2UPP01C (192.168.0.66:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.009s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.03.10-03.00.52:106][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.10-03.00.52:106][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.10-03.00.52:115][  0]LogInit: Computer: DESKTOP-2UPP01C
+[2020.03.10-03.00.52:115][  0]LogInit: User: pth08
+[2020.03.10-03.00.52:115][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.10-03.00.52:115][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.10-03.00.52:115][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.10-03.00.52:115][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.10-03.00.52:115][  0]LogMemory: Process Physical Memory: 278.55 MB used, 278.55 MB peak
+[2020.03.10-03.00.52:115][  0]LogMemory: Process Virtual Memory: 264.76 MB used, 264.76 MB peak
+[2020.03.10-03.00.52:115][  0]LogMemory: Physical Memory: 8724.93 MB used,  7574.36 MB free, 16299.29 MB total
+[2020.03.10-03.00.52:115][  0]LogMemory: Virtual Memory: 4779.41 MB used,  7574.36 MB free, 134217728.00 MB total
+[2020.03.10-03.00.52:141][  0]LogInit: Using OS detected language (ko-KR).
+[2020.03.10-03.00.52:141][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.03.10-03.00.52:145][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.03.10-03.00.52:497][  0]LogStreaming: Display: Took  0.356s to EndInitTextLocalization.
+[2020.03.10-03.00.52:497][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.10-03.00.52:586][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.10-03.00.52:586][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.10-03.00.52:987][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.10-03.00.53:003][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.03.10-03.00.53:003][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.03.10-03.00.53:038][  0]LogD3D11RHI:    1. 'Radeon(TM) 540 Graphics' (Feature Level 11_0)
+[2020.03.10-03.00.53:038][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.03.10-03.00.53:041][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.10-03.00.53:041][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.10-03.00.53:041][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.03.10-03.00.53:051][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.10-03.00.53:051][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2020.03.10-03.00.53:051][  0]LogWindows: EnumDisplayDevices:
+[2020.03.10-03.00.53:052][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2020.03.10-03.00.53:052][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.03.10-03.00.53:053][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.03.10-03.00.53:054][  0]LogWindows:    3. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:054][  0]LogWindows:    4. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:055][  0]LogWindows:    5. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:056][  0]LogWindows:    6. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:056][  0]LogWindows:    7. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:057][  0]LogWindows:    8. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:058][  0]LogWindows:    9. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:058][  0]LogWindows:    10. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:059][  0]LogWindows:    11. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:060][  0]LogWindows:    12. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:061][  0]LogWindows:    13. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:062][  0]LogWindows:    14. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:063][  0]LogWindows:    15. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:064][  0]LogWindows:    16. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:064][  0]LogWindows:    17. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:065][  0]LogWindows:    18. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.10-03.00.53:065][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.03.10-03.00.53:065][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) 540 Graphics
+[2020.03.10-03.00.53:065][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.03.10-03.00.53:066][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.03.10-03.00.53:066][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
+[2020.03.10-03.00.53:200][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.10-03.00.53:212][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.10-03.00.53:214][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../dev/ArenaBattle/Intermediate/Shaders/WorkingDirectory/26352/).
+[2020.03.10-03.00.53:214][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pth08/AppData/Local/Temp/UnrealShaderWorkingDir/9949E9DF4B4865D43152E78C4A280602/'.
+[2020.03.10-03.00.53:534][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.10-03.00.53:551][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.10-03.00.53:571][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.10-03.00.53:588][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.10-03.00.53:605][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.10-03.00.53:621][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.10-03.00.53:639][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.10-03.00.53:655][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.10-03.00.53:664][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.10-03.00.53:678][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.03.10-03.00.53:692][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.03.10-03.00.53:706][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.03.10-03.00.53:720][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2020.03.10-03.00.53:733][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.03.10-03.00.53:747][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.03.10-03.00.53:774][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.03.10-03.00.53:774][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.03.10-03.00.53:788][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.10-03.00.53:791][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.10-03.00.53:830][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.10-03.00.53:842][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.10-03.00.53:855][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.10-03.00.53:867][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.10-03.00.53:879][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.10-03.00.53:892][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.10-03.00.53:892][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.10-03.00.54:071][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.10-03.00.54:071][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.10-03.00.54:071][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.10-03.00.54:980][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.10-03.00.55:034][  0]LogDerivedDataCache: Loaded boot cache 0.05s 76MB C:/Users/pth08/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2020.03.10-03.00.55:034][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pth08/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2020.03.10-03.00.55:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../dev/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.10-03.00.55:034][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.10-03.00.55:035][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../dev/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.10-03.00.55:035][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.10-03.00.55:049][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.10-03.00.55:062][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pth08/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.10-03.00.55:062][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.10-03.00.55:062][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.10-03.00.55:071][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.10-03.00.55:072][  0]LogSlate: Using Freetype 2.6.0
+[2020.03.10-03.00.55:073][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.10-03.00.55:073][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.10-03.00.55:233][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2020.03.10-03.00.55:664][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.10-03.00.55:853][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.10-03.00.55:857][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.10-03.00.55:857][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.10-03.00.55:857][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.10-03.00.55:857][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.03.10-03.00.55:857][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.03.10-03.00.55:908][  0]LogNetVersion: ArenaBattle , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3555152549)
+[2020.03.10-03.00.56:349][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.067782 seconds
+[2020.03.10-03.00.56:354][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2020.03.10-03.00.56:354][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2020.03.10-03.00.56:354][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.10-03.00.58:347][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.10-03.00.58:385][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.10-03.00.58:718][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.311600ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2020.03.10-03.00.58:735][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e9393963e0, Size=24, Default__WarriorAnimBlueprint_C Function /Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2020.03.10-03.00.58:742][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e9393963e0, Size=24
+[2020.03.10-03.00.58:742][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e9393d0d78, Size=24, Default__WarriorAnimBlueprint_C Function /Engine/Transient.REINST_WarriorAnimBlueprint_C_0:ExecuteUbergraph_WarriorAnimBlueprint
+[2020.03.10-03.00.58:748][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e9393d22c0, Size=24, Default__WarriorAnimBlueprint_C Function /Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2020.03.10-03.00.58:819][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.097400ms] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
+[2020.03.10-03.00.59:007][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.10-03.00.59:007][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.10-03.00.59:032][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.10-03.00.59:056][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.10-03.00.59:730][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.10-03.01.00:611][  0]LogOcInput: OculusInput pre-init called
+[2020.03.10-03.01.00:793][  0]LogEngine: Initializing Engine...
+[2020.03.10-03.01.00:795][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.10-03.01.00:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.10-03.01.00:797][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.10-03.01.01:097][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.10-03.01.01:593][  0]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.01.01:714][  0]LogInit: FAudioDevice initialized.
+[2020.03.10-03.01.01:759][  0]LogDerivedDataCache: Saved boot cache 0.04s 76MB C:/Users/pth08/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2020.03.10-03.01.01:769][  0]LogInit: Texture streaming: Enabled
+[2020.03.10-03.01.01:793][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.10-03.01.01:811][  0]LogInit: Transaction tracking system initialized
+[2020.03.10-03.01.01:854][  0]BlueprintLog: New page: 에디터 로드
+[2020.03.10-03.01.01:968][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.03.10-03.01.02:114][  0]LogConsoleResponse: Display: 
+[2020.03.10-03.01.02:305][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.10-03.01.02:305][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.10-03.01.02:305][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.10-03.01.02:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.10-03.01.02:305][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.10-03.01.02:851][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Content/' took 0.04s
+[2020.03.10-03.01.02:851][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.10-03.01.02:851][  0]Cmd: MAP LOAD FILE="../../../../../../dev/ArenaBattle/Content/Book/Maps/Step2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.10-03.01.02:852][  0]LightingResults: New page: 라이팅 빌드
+[2020.03.10-03.01.02:856][  0]MapCheck: New page: 맵 체크
+[2020.03.10-03.01.02:856][  0]LightingResults: New page: 라이팅 빌드
+[2020.03.10-03.01.02:865][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e9393d0d78, Size=24
+[2020.03.10-03.01.02:911][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e9284a8600, Size=64, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2020.03.10-03.01.02:921][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e9284a8600, Size=64
+[2020.03.10-03.01.02:921][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e939298380, Size=64, Default__ThirdPerson_AnimBP_C Function /Engine/Transient.REINST_ThirdPerson_AnimBP_C_1:ExecuteUbergraph_ThirdPerson_AnimBP
+[2020.03.10-03.01.02:929][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e92a1724d0, Size=72, Default__ThirdPerson_AnimBP_C Function /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C:ExecuteUbergraph_ThirdPerson_AnimBP
+[2020.03.10-03.01.02:969][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e92d777ec0, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2020.03.10-03.01.02:975][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e92d777ec0, Size=296
+[2020.03.10-03.01.02:975][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e92d777ec0, Size=296, Default__ThirdPersonCharacter_C Function /Engine/Transient.REINST_ThirdPersonCharacter_C_5:ExecuteUbergraph_ThirdPersonCharacter
+[2020.03.10-03.01.02:980][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001e92d7765c0, Size=296, Default__ThirdPersonCharacter_C Function /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C:ExecuteUbergraph_ThirdPersonCharacter
+[2020.03.10-03.01.03:258][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [14.837500ms] /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin
+[2020.03.10-03.01.03:298][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.651400ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Golden.SK_CharM_Golden
+[2020.03.10-03.01.03:314][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [1.017000ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Barbarous.SK_CharM_Barbarous
+[2020.03.10-03.01.03:374][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.494800ms] /Game/InfinityBladeWeapons/Weapons/Blade/Axes/Blade_GreatBlade/SK_Blade_GreatBlade.SK_Blade_GreatBlade
+[2020.03.10-03.01.03:455][  0]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.01.03:515][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.10-03.01.03:527][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e939298380, Size=64
+[2020.03.10-03.01.03:527][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001e92d777ec0, Size=296
+[2020.03.10-03.01.03:528][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.10-03.01.03:654][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 125.709ms.
+[2020.03.10-03.01.03:654][  0]LogFileHelpers: Loading map 'Step2' took 0.803
+[2020.03.10-03.01.03:911][  0]LogCollectionManager: Loaded 0 collections in 0.003035 seconds
+[2020.03.10-03.01.03:965][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Saved/Collections/' took 0.01s
+[2020.03.10-03.01.03:965][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Content/Developers/pth08/Collections/' took 0.01s
+[2020.03.10-03.01.03:965][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Content/Collections/' took 0.01s
+[2020.03.10-03.01.03:965][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.03.10-03.01.03:975][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2461 classes and 560 folders.
+[2020.03.10-03.01.03:985][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2020.03.10-03.01.04:065][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2020.03.10-03.01.04:075][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2020.03.10-03.01.04:186][  0]LogSlate: Took 0.000384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.10-03.01.04:189][  0]LogSlate: Took 0.002654 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.03.10-03.01.04:193][  0]LogSlate: Took 0.002857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.03.10-03.01.04:194][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.10-03.01.04:200][  0]LogSlate: Took 0.000356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.10-03.01.04:201][  0]LogSlate: Took 0.000889 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.10-03.01.04:265][  0]LogSlate: Took 0.002054 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2020.03.10-03.01.04:384][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2020.03.10-03.01.04:621][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2020.03.10-03.01.04:622][  0]LogLoad: (Engine Initialization) Total time: 16.64 seconds
+[2020.03.10-03.01.04:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.10-03.01.04:665][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.10-03.01.04:741][  2]LogAssetRegistry: Asset discovery search completed in 9.5306 seconds
+[2020.03.10-03.01.04:745][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2020.03.10-03.01.04:745][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000366 seconds (updated 0 objects)
+[2020.03.10-03.01.06:859][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.01.06:965][ 63]LogSlate: Took 0.001096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.10-03.01.08:977][127]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.01.09:019][127]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.01.09:021][127]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:01:09)
+[2020.03.10-03.01.09:021][127]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.01.09:063][127]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042178s)
+[2020.03.10-03.01.09:070][127]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.01.09:071][127]LogPlayLevel: PIE: World Init took: (0.006835s)
+[2020.03.10-03.01.09:071][127]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.050421s)
+[2020.03.10-03.01.09:090][127]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.01.09:697][127]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.01.09:779][127]LogInit: FAudioDevice initialized.
+[2020.03.10-03.01.09:825][127]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.01.09:832][127]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.01.09
+[2020.03.10-03.01.09:833][127]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.01.09:833][127]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.01.09:834][127]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.01.09:834][127]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.01.09:834][127]LogWorld: Bringing up level for play took: 0.007110
+[2020.03.10-03.01.09:834][127]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.01.09:835][127]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.01.09:842][127]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0012 seconds. Added 11 classes and 0 folders.
+[2020.03.10-03.01.09:843][127]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.01.09:843][127]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.01.09:844][127]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.01.09:844][127]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.421
+[2020.03.10-03.01.10:981][165]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.01.13:384][247]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.10-03.01.17:205][363]ArenaBattle: Warning: AABCharacter::AttackCheck(357)Hit ActorName: ABCharacter_6
+[2020.03.10-03.01.17:206][363]ArenaBattle: Warning: AABCharacter::TakeDamage(172)Actor : ABCharacter_6 took Damage : 1050.000000
+[2020.03.10-03.01.17:480][373]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.01.18:958][429]ArenaBattle: Warning: AABCharacter::AttackCheck(357)Hit ActorName: ABCharacter_6
+[2020.03.10-03.01.18:959][429]ArenaBattle: Warning: AABCharacter::TakeDamage(172)Actor : ABCharacter_6 took Damage : 1050.000000
+[2020.03.10-03.01.19:193][438]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.01.23:203][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.02.00:739][849]LogHotReload: New module detected: UE4Editor-ArenaBattle-8831.dll
+[2020.03.10-03.02.02:089][854]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.02.02:118][854]LogSlate: Took 0.002860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.10-03.02.02:167][854]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.02.02:172][854]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.02.02:326][854]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.02.02:429][854]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.02.02:528][854]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.02.02:530][854]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.02.02:640][854]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.02.02:683][854]Display: HotReload took  0.6s.
+[2020.03.10-03.02.09:905][912]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.02.09:971][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.02.09:972][912]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:02:09)
+[2020.03.10-03.02.09:973][912]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.02.10:026][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.052421s)
+[2020.03.10-03.02.10:029][912]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.02.10:031][912]LogPlayLevel: PIE: World Init took: (0.003693s)
+[2020.03.10-03.02.10:031][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.058421s)
+[2020.03.10-03.02.10:060][912]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.02.10:774][912]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.02.10:861][912]LogInit: FAudioDevice initialized.
+[2020.03.10-03.02.10:893][912]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.02.10:897][912]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.02.10
+[2020.03.10-03.02.10:897][912]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.02.10:898][912]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.02.10:898][912]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.02.10:898][912]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.02.10:898][912]LogWorld: Bringing up level for play took: 0.004331
+[2020.03.10-03.02.10:899][912]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.02.10:899][912]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.02.10:899][912]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.02.10:901][912]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.02.10:901][912]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.02.10:902][912]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.478
+[2020.03.10-03.02.13:502][999]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.02.13:503][999]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 1050.000000
+[2020.03.10-03.02.13:766][  9]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.02.15:356][ 58]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.02.15:357][ 58]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 took Damage : 1050.000000
+[2020.03.10-03.02.15:618][ 68]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.02.15:854][ 77]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.02.15:855][ 77]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 took Damage : 1050.000000
+[2020.03.10-03.02.16:324][ 91]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.02.19:262][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.05.52:046][818]LogHotReload: New module detected: UE4Editor-ArenaBattle-8464.dll
+[2020.03.10-03.05.53:063][822]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.05.56:130][822]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.05.56:135][822]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.05.56:272][822]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.05.56:367][822]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.05.56:462][822]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0009 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.05.56:464][822]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.05.56:503][822]LogContentBrowser: Native class hierarchy populated in 0.0103 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.05.56:531][822]Display: HotReload took  3.5s.
+[2020.03.10-03.05.59:853][874]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.05.59:904][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.05.59:905][874]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:05:59)
+[2020.03.10-03.05.59:906][874]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.05.59:942][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035435s)
+[2020.03.10-03.05.59:944][874]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.05.59:945][874]LogPlayLevel: PIE: World Init took: (0.002332s)
+[2020.03.10-03.05.59:945][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.039203s)
+[2020.03.10-03.05.59:972][874]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.06.00:735][874]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.06.00:853][874]LogInit: FAudioDevice initialized.
+[2020.03.10-03.06.00:889][874]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.06.00:894][874]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.06.00
+[2020.03.10-03.06.00:895][874]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.06.00:896][874]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.06.00:896][874]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.06.00:896][874]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.06.00:896][874]LogWorld: Bringing up level for play took: 0.005041
+[2020.03.10-03.06.00:897][874]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.06.00:897][874]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.06.00:898][874]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.06.00:898][874]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.06.00:898][874]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.06.00:899][874]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.475
+[2020.03.10-03.06.04:022][966]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.06.04:023][966]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 80.000000
+[2020.03.10-03.06.04:283][976]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.06.05:781][ 26]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.06.05:783][ 26]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 took Damage : 80.000000
+[2020.03.10-03.06.06:042][ 36]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.06.13:443][313]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.10-03.06.27:683][800]LogSlate: Took 0.001008 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.10-03.06.51:099][167]LogHotReload: New module detected: UE4Editor-ArenaBattle-2755.dll
+[2020.03.10-03.06.52:451][172]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.06.55:514][172]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.06.55:517][172]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.06.55:652][172]LogHotReload: Re-instancing ABCharacterStatComponent after hot-reload.
+[2020.03.10-03.06.59:421][172]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.768 s
+[2020.03.10-03.06.59:421][172]LogOutputDevice: Error: === Handled ensure: ===
+[2020.03.10-03.06.59:421][172]LogOutputDevice: Error: 
+[2020.03.10-03.06.59:421][172]LogOutputDevice: Error: Ensure condition failed: bArchetypeReinstanced [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetReinstanceUtilities.cpp] [Line: 1608]
+[2020.03.10-03.06.59:421][172]LogOutputDevice: Error: Reinstancing non-actor (/Game/Book/Maps/Step2.Step2:PersistentLevel.ABCharacter_6.CHARACTERSTAT); failed to resolve archetype object - property values may be lost.
+[2020.03.10-03.06.59:422][172]LogOutputDevice: Error: Stack: 
+[2020.03.10-03.06.59:422][172]LogOutputDevice: Error: [Callstack] 0x00000000E75BB706 UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:234]
+[2020.03.10-03.06.59:422][172]LogOutputDevice: Error: [Callstack] 0x00000000E731AE3A UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:299]
+[2020.03.10-03.06.59:422][172]LogOutputDevice: Error: [Callstack] 0x00000000E732ECD6 UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\misc\assertionmacros.cpp:430]
+[2020.03.10-03.06.59:423][172]LogOutputDevice: Error: [Callstack] 0x00000000D3E1E784 UE4Editor-UnrealEd.dll!ReplaceObjectHelper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1608]
+[2020.03.10-03.06.59:423][172]LogOutputDevice: Error: [Callstack] 0x00000000D3E1C8AA UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass_Inner() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1958]
+[2020.03.10-03.06.59:423][172]LogOutputDevice: Error: [Callstack] 0x00000000D3E1BB9D UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReplaceInstancesOfClass() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:1467]
+[2020.03.10-03.06.59:424][172]LogOutputDevice: Error: [Callstack] 0x00000000D3E168FC UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceInner() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:660]
+[2020.03.10-03.06.59:424][172]LogOutputDevice: Error: [Callstack] 0x00000000D3E17B80 UE4Editor-UnrealEd.dll!FBlueprintCompileReinstancer::ReinstanceObjects() [d:\build\++ue4+release-4.19+compile\sync\engine\source\editor\unrealed\private\kismet2\kismetreinstanceutilities.cpp:904]
+[2020.03.10-03.06.59:425][172]LogOutputDevice: Error: [Callstack] 0x00000000B92AC5AF UE4Editor-HotReload.dll!FHotReloadModule::ReinstanceClass() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1288]
+[2020.03.10-03.06.59:425][172]LogOutputDevice: Error: [Callstack] 0x00000000B92AC875 UE4Editor-HotReload.dll!FHotReloadModule::ReinstanceClasses() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1271]
+[2020.03.10-03.06.59:426][172]LogOutputDevice: Error: [Callstack] 0x00000000B92A4EE6 UE4Editor-HotReload.dll!TBaseRawMethodDelegateInstance<0,FHotReloadModule,void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:503]
+[2020.03.10-03.06.59:426][172]LogOutputDevice: Error: [Callstack] 0x00000000E6B7DB85 UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2020.03.10-03.06.59:426][172]LogOutputDevice: Error: [Callstack] 0x00000000E6EA6898 UE4Editor-CoreUObject.dll!UClassReplaceHotReloadClasses() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:775]
+[2020.03.10-03.06.59:427][172]LogOutputDevice: Error: [Callstack] 0x00000000E6E894A9 UE4Editor-CoreUObject.dll!ProcessNewlyLoadedUObjects() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\coreuobject\private\uobject\uobjectbase.cpp:900]
+[2020.03.10-03.06.59:427][172]LogOutputDevice: Error: [Callstack] 0x00000000E6C1A7F7 UE4Editor-CoreUObject.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:788]
+[2020.03.10-03.06.59:427][172]LogOutputDevice: Error: [Callstack] 0x00000000E71C4190 UE4Editor-Core.dll!TBaseMulticastDelegate<void>::Broadcast() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:937]
+[2020.03.10-03.06.59:427][172]LogOutputDevice: Error: [Callstack] 0x00000000E73D5E91 UE4Editor-Core.dll!FModuleManager::LoadModuleWithFailureReason() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:487]
+[2020.03.10-03.06.59:428][172]LogOutputDevice: Error: [Callstack] 0x00000000E73D5207 UE4Editor-Core.dll!FModuleManager::LoadModule() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\modules\modulemanager.cpp:338]
+[2020.03.10-03.06.59:428][172]LogOutputDevice: Error: [Callstack] 0x00000000B92A317C UE4Editor-HotReload.dll!FHotReloadModule::DoHotReloadInternal() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:811]
+[2020.03.10-03.06.59:428][172]LogOutputDevice: Error: [Callstack] 0x00000000B92A2E11 UE4Editor-HotReload.dll!FHotReloadModule::DoHotReloadFromIDE() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1542]
+[2020.03.10-03.06.59:429][172]LogOutputDevice: Error: [Callstack] 0x00000000B92B3E97 UE4Editor-HotReload.dll!FHotReloadModule::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\developer\hotreload\private\hotreload.cpp:1486]
+[2020.03.10-03.06.59:429][172]LogOutputDevice: Error: [Callstack] 0x00000000E720B646 UE4Editor-Core.dll!FTicker::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\core\private\containers\ticker.cpp:82]
+[2020.03.10-03.06.59:429][172]LogOutputDevice: Error: [Callstack] 0x00000000747D8503 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3505]
+[2020.03.10-03.06.59:429][172]LogOutputDevice: Error: [Callstack] 0x00000000747E6BD0 UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\launch.cpp:166]
+[2020.03.10-03.06.59:430][172]LogOutputDevice: Error: [Callstack] 0x00000000747E6C4A UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:144]
+[2020.03.10-03.06.59:430][172]LogOutputDevice: Error: [Callstack] 0x00000000747F4177 UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.19+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:223]
+[2020.03.10-03.06.59:430][172]LogOutputDevice: Error: [Callstack] 0x00000000747F5B87 UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:253]
+[2020.03.10-03.06.59:430][172]LogOutputDevice: Error: [Callstack] 0x000000002BE07BD4 KERNEL32.DLL!UnknownFunction []
+[2020.03.10-03.06.59:430][172]LogOutputDevice: Error: [Callstack] 0x000000002DBACED1 ntdll.dll!UnknownFunction []
+[2020.03.10-03.06.59:431][172]LogOutputDevice: Error: 
+[2020.03.10-03.06.59:442][172]LogStats:                SubmitErrorReport -  0.000 s
+[2020.03.10-03.07.00:068][172]LogStats:                    SendNewReport -  0.625 s
+[2020.03.10-03.07.00:068][172]LogStats:             FDebug::EnsureFailed -  4.414 s
+[2020.03.10-03.07.00:142][172]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.07.00:298][172]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.07.00:415][172]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0011 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.07.00:417][172]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.07.00:465][172]LogContentBrowser: Native class hierarchy populated in 0.0119 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.07.00:520][172]Display: HotReload took  8.1s.
+[2020.03.10-03.07.03:154][231]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.07.03:253][235]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.07.03:349][235]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.07.03:350][235]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:07:03)
+[2020.03.10-03.07.03:351][235]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.07.03:421][235]LogPlayLevel: PIE: StaticDuplicateObject took: (0.070166s)
+[2020.03.10-03.07.03:424][235]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.07.03:426][235]LogPlayLevel: PIE: World Init took: (0.003491s)
+[2020.03.10-03.07.03:427][235]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.076354s)
+[2020.03.10-03.07.03:461][235]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.07.04:243][235]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.07.04:343][235]LogInit: FAudioDevice initialized.
+[2020.03.10-03.07.04:377][235]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.07.04:381][235]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.07.04
+[2020.03.10-03.07.04:381][235]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.07.04:382][235]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.07.04:382][235]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.07.04:382][235]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.07.04:382][235]LogWorld: Bringing up level for play took: 0.004697
+[2020.03.10-03.07.04:383][235]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.07.04:383][235]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.07.04:383][235]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.07.04:384][235]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.07.04:384][235]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.07.04:384][235]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.961
+[2020.03.10-03.07.07:413][333]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.08:085][353]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.08:408][360]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.08:409][360]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.09:010][377]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.09:869][406]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.09:870][406]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.11:246][451]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.11:248][451]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.11:519][459]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.11:750][467]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.11:751][467]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.12:191][480]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.12:484][489]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.12:485][489]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.13:134][513]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.13:972][540]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.13:974][540]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.15:404][588]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.15:405][588]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.15:654][597]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.15:896][604]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.15:897][604]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.16:348][616]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.16:618][625]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.16:620][625]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.17:267][644]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.18:131][673]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.18:132][673]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.19:465][722]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.19:466][722]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.19:699][731]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.19:950][739]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.19:952][739]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.20:405][755]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.20:687][767]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.20:688][767]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.21:312][785]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.22:178][813]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.22:179][813]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.23:662][857]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.23:663][857]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.23:914][868]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.24:145][876]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.24:146][876]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.24:631][891]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.25:064][904]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.10-03.07.26:266][938]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.27:616][978]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.27:617][978]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.27:869][985]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.28:095][992]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.28:097][992]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.28:541][  6]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.28:813][ 15]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.28:815][ 15]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.29:487][ 38]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.30:339][ 67]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.30:340][ 67]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.31:983][123]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.32:215][132]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.32:216][132]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.32:664][146]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.32:944][156]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.32:945][156]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.33:600][179]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.34:471][203]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.34:472][203]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.36:168][263]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.36:866][286]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.37:148][296]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.37:149][296]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.37:800][320]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.40:266][399]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.41:800][448]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.42:043][458]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.42:045][458]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.42:476][472]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.43:692][505]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.43:693][505]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.43:912][512]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.44:165][521]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.44:167][521]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.44:619][537]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.44:884][545]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.44:885][545]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.45:542][568]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.07.46:401][601]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.07.46:402][601]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.07.52:291][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.07.54:928][877]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.07.55:070][879]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(62)ABGameInstance is nullptr
+[2020.03.10-03.12.38:476][793]LogHotReload: New module detected: UE4Editor-ArenaBattle-4369.dll
+[2020.03.10-03.12.39:824][798]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.12.42:889][798]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.12.42:895][798]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.12.43:128][798]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.12.43:297][798]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.12.43:470][798]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0011 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.12.43:471][798]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.12.43:518][798]LogContentBrowser: Native class hierarchy populated in 0.0140 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.12.43:550][798]Display: HotReload took  3.7s.
+[2020.03.10-03.12.45:584][816]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.12.45:604][817]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(62)ABGameInstance is nullptr
+[2020.03.10-03.13.14:421][ 49]LogHotReload: New module detected: UE4Editor-ArenaBattle-6643.dll
+[2020.03.10-03.13.15:777][ 54]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.13.16:164][ 54]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.13.16:168][ 54]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.13.16:351][ 54]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.13.16:483][ 54]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.13.16:613][ 54]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0009 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.13.16:615][ 54]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.13.16:655][ 54]LogContentBrowser: Native class hierarchy populated in 0.0106 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.13.16:686][ 54]Display: HotReload took  0.9s.
+[2020.03.10-03.13.21:195][138]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.13.21:269][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.13.21:270][138]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:13:21)
+[2020.03.10-03.13.21:271][138]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.13.21:322][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050858s)
+[2020.03.10-03.13.21:325][138]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.13.21:326][138]LogPlayLevel: PIE: World Init took: (0.003138s)
+[2020.03.10-03.13.21:327][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.056361s)
+[2020.03.10-03.13.21:356][138]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.13.22:192][138]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.13.22:331][138]LogInit: FAudioDevice initialized.
+[2020.03.10-03.13.22:369][138]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.13.22:375][138]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.13.22
+[2020.03.10-03.13.22:376][138]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.13.22:377][138]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.13.22:377][138]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.13.22:377][138]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.13.22:377][138]LogWorld: Bringing up level for play took: 0.007564
+[2020.03.10-03.13.22:378][138]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.13.22:378][138]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.13.22:379][138]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.13.22:379][138]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.13.22:379][138]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.13.22:380][138]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.957
+[2020.03.10-03.13.24:057][203]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.10-03.13.24:807][231]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.28:216][348]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.28:218][348]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.28:491][358]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.33:008][500]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.34:540][554]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.34:541][554]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.34:821][565]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.36:581][627]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.36:582][627]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.36:828][637]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.38:092][680]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.38:094][680]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.38:335][691]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.38:572][699]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.38:573][699]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.39:033][715]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.39:294][725]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.39:295][725]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.39:948][750]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.13.40:812][784]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_6
+[2020.03.10-03.13.40:814][784]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 took Damage : 10.000000
+[2020.03.10-03.13.45:221][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.19.46:051][880]LogHotReload: New module detected: UE4Editor-ArenaBattle-7605.dll
+[2020.03.10-03.19.47:075][884]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.19.49:400][884]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.19.49:404][884]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.19.49:605][884]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.19.49:761][884]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.19.49:931][884]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.19.49:933][884]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.19.49:977][884]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.19.50:013][884]Display: HotReload took  2.9s.
+[2020.03.10-03.19.53:450][898]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.19.53:488][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.19.53:489][898]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:19:53)
+[2020.03.10-03.19.53:490][898]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.19.53:516][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026172s)
+[2020.03.10-03.19.53:518][898]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.19.53:518][898]LogPlayLevel: PIE: World Init took: (0.001979s)
+[2020.03.10-03.19.53:519][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.029209s)
+[2020.03.10-03.19.53:535][898]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.19.54:162][898]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.19.54:257][898]LogInit: FAudioDevice initialized.
+[2020.03.10-03.19.54:292][898]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.19.54:296][898]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.19.54
+[2020.03.10-03.19.54:297][898]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.19.54:297][898]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.19.54:297][898]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.19.54:298][898]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.19.54:298][898]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.19.54:298][898]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.19.54:298][898]LogWorld: Bringing up level for play took: 0.005364
+[2020.03.10-03.19.54:299][898]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.19.54:299][898]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.19.54:300][898]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.19.54:300][898]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.19.54:300][898]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.19.54:300][898]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.19.54:301][898]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.877
+[2020.03.10-03.19.59:820][ 85]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.19.59:821][ 85]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 / took Damage : 0.000000 
+[2020.03.10-03.20.00:084][ 93]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.20.02:487][166]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.20.02:488][166]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 / took Damage : 0.000000 
+[2020.03.10-03.20.02:742][174]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.20.06:309][290]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.20.06:311][290]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 / took Damage : 0.000000 
+[2020.03.10-03.20.06:566][300]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.20.39:607][696]LogHotReload: New module detected: UE4Editor-ArenaBattle-8488.dll
+[2020.03.10-03.20.40:960][701]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.20.42:399][701]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.20.42:405][701]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.20.42:589][701]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.20.42:730][701]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.20.42:875][701]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0013 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.20.42:877][701]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.20.42:923][701]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.20.42:957][701]Display: HotReload took  2.0s.
+[2020.03.10-03.20.44:975][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.20.44:976][707]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.20.44:997][707]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.20.44:997][707]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:20:44)
+[2020.03.10-03.20.44:997][707]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.20.45:015][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017705s)
+[2020.03.10-03.20.45:016][707]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.20.45:016][707]LogPlayLevel: PIE: World Init took: (0.001001s)
+[2020.03.10-03.20.45:017][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.019519s)
+[2020.03.10-03.20.45:028][707]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.20.45:565][707]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.20.45:672][707]LogInit: FAudioDevice initialized.
+[2020.03.10-03.20.45:707][707]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.20.45:711][707]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.20.45
+[2020.03.10-03.20.45:711][707]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.20.45:711][707]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.20.45:712][707]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.20.45:712][707]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.20.45:712][707]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.20.45:712][707]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.20.45:713][707]LogWorld: Bringing up level for play took: 0.004728
+[2020.03.10-03.20.45:713][707]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.20.45:713][707]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.20.45:714][707]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.20.45:714][707]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.20.45:714][707]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.20.45:714][707]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.20.45:715][707]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.291
+[2020.03.10-03.20.46:303][729]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.20.47:956][782]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.20.47:957][782]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.10-03.20.48:204][791]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.20.50:487][865]ArenaBattle: Warning: AABCharacter::AttackCheck(360)Hit ActorName: ABCharacter_1
+[2020.03.10-03.20.50:489][865]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.10-03.20.50:736][874]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.21.06:256][ 43]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-03.27.49:812][490]LogHotReload: New module detected: UE4Editor-ArenaBattle-5223.dll
+[2020.03.10-03.27.50:848][494]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-03.27.53:916][494]LogClass: ABCharacterData HotReload.
+[2020.03.10-03.27.53:920][494]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-03.27.54:139][494]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-03.27.54:293][494]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-03.27.54:454][494]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0016 seconds. Added 9 classes and 2 folders.
+[2020.03.10-03.27.54:456][494]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-03.27.54:506][494]LogContentBrowser: Native class hierarchy populated in 0.0164 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-03.27.54:538][494]Display: HotReload took  3.7s.
+[2020.03.10-03.27.57:658][558]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-03.27.57:739][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-03.27.57:740][558]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 9:27:57)
+[2020.03.10-03.27.57:741][558]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-03.27.57:791][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049012s)
+[2020.03.10-03.27.57:793][558]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-03.27.57:794][558]LogPlayLevel: PIE: World Init took: (0.002675s)
+[2020.03.10-03.27.57:795][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.053752s)
+[2020.03.10-03.27.57:825][558]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-03.27.58:552][558]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-03.27.58:639][558]LogInit: FAudioDevice initialized.
+[2020.03.10-03.27.58:676][558]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-03.27.58:680][558]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-12.27.58
+[2020.03.10-03.27.58:681][558]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.27.58:681][558]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.27.58:681][558]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.27.58:681][558]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.27.58:681][558]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-03.27.58:682][558]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-03.27.58:682][558]LogWorld: Bringing up level for play took: 0.004624
+[2020.03.10-03.27.58:682][558]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-03.27.58:682][558]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-03.27.58:683][558]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-03.27.58:683][558]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-03.27.58:683][558]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-03.27.58:683][558]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-03.27.58:684][558]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.261
+[2020.03.10-03.28.00:900][625]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.28.02:625][665]ArenaBattle: Warning: AABCharacter::AttackCheck(361)Hit ActorName: ABCharacter_1
+[2020.03.10-03.28.02:627][665]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.10-03.28.02:913][671]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.28.05:501][746]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.10-03.28.06:599][775]ArenaBattle: Warning: AABCharacter::AttackCheck(361)Hit ActorName: ABCharacter_6
+[2020.03.10-03.28.06:600][775]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-03.28.06:850][783]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.28.08:282][823]ArenaBattle: Warning: AABCharacter::AttackCheck(361)Hit ActorName: ABCharacter_6
+[2020.03.10-03.28.08:283][823]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-03.28.08:547][830]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-03.28.09:858][870]ArenaBattle: Warning: AABCharacter::AttackCheck(361)Hit ActorName: ABCharacter_6
+[2020.03.10-03.28.09:860][870]ArenaBattle: Warning: AABCharacter::TakeDamage(175)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-03.28.10:124][878]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.41.45:222][565]LogHotReload: New module detected: UE4Editor-ArenaBattle-8279.dll
+[2020.03.10-04.41.46:269][569]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-04.41.46:725][569]LogClass: ABCharacterData HotReload.
+[2020.03.10-04.41.46:729][569]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-04.41.46:908][569]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-04.41.47:050][569]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-04.41.47:197][569]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2020.03.10-04.41.47:198][569]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-04.41.47:245][569]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-04.41.47:282][569]Display: HotReload took  1.0s.
+[2020.03.10-04.41.54:658][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-04.41.54:766][752]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-04.41.54:829][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-04.41.54:829][752]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 10:41:54)
+[2020.03.10-04.41.54:830][752]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-04.41.54:882][752]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051224s)
+[2020.03.10-04.41.54:886][752]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-04.41.54:887][752]LogPlayLevel: PIE: World Init took: (0.003855s)
+[2020.03.10-04.41.54:887][752]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.056617s)
+[2020.03.10-04.41.54:912][752]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-04.41.55:604][752]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-04.41.55:690][752]LogInit: FAudioDevice initialized.
+[2020.03.10-04.41.55:721][752]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-04.41.55:725][752]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-13.41.55
+[2020.03.10-04.41.55:726][752]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.41.55:726][752]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.41.55:726][752]ArenaBattle: Warning: AABCharacter::PostInitializeComponents(162)OnHPIsZero
+[2020.03.10-04.41.55:726][752]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.41.55:727][752]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.41.55:727][752]ArenaBattle: Warning: AABCharacter::PostInitializeComponents(162)OnHPIsZero
+[2020.03.10-04.41.55:727][752]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-04.41.55:727][752]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-04.41.55:727][752]LogWorld: Bringing up level for play took: 0.005445
+[2020.03.10-04.41.55:728][752]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-04.41.55:728][752]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-04.41.55:729][752]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.41.55:729][752]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.41.55:729][752]ArenaBattle: Warning: AABCharacter::PostInitializeComponents(162)OnHPIsZero
+[2020.03.10-04.41.55:729][752]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-04.41.55:729][752]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-04.41.55:730][752]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 0.306
+[2020.03.10-04.41.59:115][874]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.42.02:521][980]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.42.04:801][ 57]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.42.06:317][109]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_6
+[2020.03.10-04.42.06:319][109]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-04.42.06:567][119]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.42.15:775][527]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_6
+[2020.03.10-04.42.15:776][527]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-04.42.16:027][539]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.42.20:370][749]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_6
+[2020.03.10-04.42.20:371][749]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-04.42.20:632][764]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.43.34:276][ 27]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.43.36:085][110]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.43.39:040][238]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_1
+[2020.03.10-04.43.39:041][238]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.10-04.43.39:280][250]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.44.23:257][722]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-04.44.23:361][725]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-04.44.23:442][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-04.44.23:443][725]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 10:44:23)
+[2020.03.10-04.44.23:444][725]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-04.44.23:495][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.050937s)
+[2020.03.10-04.44.23:499][725]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-04.44.23:500][725]LogPlayLevel: PIE: World Init took: (0.003374s)
+[2020.03.10-04.44.23:500][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.056373s)
+[2020.03.10-04.44.23:532][725]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-04.44.24:306][725]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-04.44.24:405][725]LogInit: FAudioDevice initialized.
+[2020.03.10-04.44.24:437][725]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-04.44.24:442][725]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-13.44.24
+[2020.03.10-04.44.24:443][725]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.44.24:443][725]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.44.24:443][725]ArenaBattle: Warning: AABCharacter::PostInitializeComponents(162)OnHPIsZero
+[2020.03.10-04.44.24:443][725]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.44.24:443][725]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.44.24:444][725]ArenaBattle: Warning: AABCharacter::PostInitializeComponents(162)OnHPIsZero
+[2020.03.10-04.44.24:444][725]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-04.44.24:444][725]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-04.44.24:444][725]LogWorld: Bringing up level for play took: 0.006087
+[2020.03.10-04.44.24:445][725]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-04.44.24:445][725]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-04.44.24:446][725]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.44.24:446][725]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.44.24:446][725]ArenaBattle: Warning: AABCharacter::PostInitializeComponents(162)OnHPIsZero
+[2020.03.10-04.44.24:446][725]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-04.44.24:447][725]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-04.44.24:447][725]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.024
+[2020.03.10-04.44.25:755][775]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.44.27:343][838]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_1
+[2020.03.10-04.44.27:344][838]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.10-04.44.27:585][848]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.44.34:620][157]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_6
+[2020.03.10-04.44.34:621][157]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-04.44.34:873][170]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.44.42:925][564]ArenaBattle: Warning: AABCharacter::AttackCheck(362)Hit ActorName: ABCharacter_6
+[2020.03.10-04.44.42:926][564]ArenaBattle: Warning: AABCharacter::TakeDamage(176)Actor : ABCharacter_6 / took Damage : 10.000000 
+[2020.03.10-04.44.43:176][579]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_f7ce6ff52a513a6f5982199f65e001bb>::operator ()(151)OnNextAttackCheck
+[2020.03.10-04.47.46:897][583]LogHotReload: New module detected: UE4Editor-ArenaBattle-7770.dll
+[2020.03.10-04.47.47:919][587]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-04.47.48:304][587]LogClass: ABCharacterData HotReload.
+[2020.03.10-04.47.48:308][587]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-04.47.48:514][587]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-04.47.48:672][587]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-04.47.48:824][587]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2020.03.10-04.47.48:826][587]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-04.47.48:873][587]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-04.47.48:916][587]Display: HotReload took  1.0s.
+[2020.03.10-04.47.50:274][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-04.47.50:275][591]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-04.47.50:291][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-04.47.50:291][591]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 10:47:50)
+[2020.03.10-04.47.50:292][591]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-04.47.50:308][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015738s)
+[2020.03.10-04.47.50:309][591]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-04.47.50:309][591]LogPlayLevel: PIE: World Init took: (0.001286s)
+[2020.03.10-04.47.50:309][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.017741s)
+[2020.03.10-04.47.50:324][591]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-04.47.50:813][591]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-04.47.50:901][591]LogInit: FAudioDevice initialized.
+[2020.03.10-04.47.50:931][591]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-04.47.50:935][591]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-13.47.50
+[2020.03.10-04.47.50:936][591]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.47.50:936][591]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.47.50:937][591]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.47.50:937][591]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.47.50:937][591]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-04.47.50:937][591]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-04.47.50:938][591]LogWorld: Bringing up level for play took: 0.005256
+[2020.03.10-04.47.50:938][591]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-04.47.50:938][591]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-04.47.50:939][591]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.47.50:939][591]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.47.50:939][591]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-04.47.50:939][591]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-04.47.50:940][591]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.517
+[2020.03.10-04.47.52:596][643]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_3ea2b4d7bf956bcf3d3139082820cf25>::operator ()(148)OnNextAttackCheck
+[2020.03.10-04.47.54:817][714]ArenaBattle: Warning: AABCharacter::AttackCheck(359)Hit ActorName: ABCharacter_1
+[2020.03.10-04.47.54:819][714]ArenaBattle: Warning: AABCharacter::TakeDamage(172)Actor : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.10-04.47.54:820][714]ArenaBattle: Warning: AABCharacter::TakeDamage(173)======== Actor : ABCharacter_1 SetDamage ======== 
+[2020.03.10-04.47.55:060][721]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_3ea2b4d7bf956bcf3d3139082820cf25>::operator ()(148)OnNextAttackCheck
+[2020.03.10-04.49.10:192][360]LogHotReload: New module detected: UE4Editor-ArenaBattle-1894.dll
+[2020.03.10-04.49.11:213][364]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.10-04.49.11:604][364]LogClass: ABCharacterData HotReload.
+[2020.03.10-04.49.11:607][364]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.10-04.49.11:786][364]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.10-04.49.11:943][364]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.10-04.49.12:099][364]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0010 seconds. Added 9 classes and 2 folders.
+[2020.03.10-04.49.12:101][364]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.10-04.49.12:146][364]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2462 classes and 562 folders.
+[2020.03.10-04.49.12:188][364]Display: HotReload took  1.0s.
+[2020.03.10-04.49.50:212][478]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SQUARE)
+[2020.03.10-04.49.51:449][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.10-04.49.51:590][507]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.10-04.49.51:647][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.10-04.49.51:648][507]PIE: New page: PIE 세션: Step2 (2020. 3. 10. 오후 10:49:51)
+[2020.03.10-04.49.51:648][507]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step2
+[2020.03.10-04.49.51:690][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041893s)
+[2020.03.10-04.49.51:693][507]LogAIModule: Creating AISystem for world Step2
+[2020.03.10-04.49.51:693][507]LogPlayLevel: PIE: World Init took: (0.002287s)
+[2020.03.10-04.49.51:694][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step2.Step2 to /Game/Book/Maps/UEDPIE_0_Step2.Step2 (0.045847s)
+[2020.03.10-04.49.51:719][507]ArenaBattle: Warning: UABGameInstance::Init(15)DropExp 20 : 25
+[2020.03.10-04.49.52:411][507]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.10-04.49.52:499][507]LogInit: FAudioDevice initialized.
+[2020.03.10-04.49.52:530][507]LogLoad: Game class is 'ABGameMode'
+[2020.03.10-04.49.52:534][507]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step2.Step2 up for play (max tick rate 60) at 2020.03.10-13.49.52
+[2020.03.10-04.49.52:535][507]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.49.52:535][507]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.49.52:535][507]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.49.52:535][507]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.49.52:536][507]ArenaBattle: Warning: AABPawn::PossessedBy(93)
+[2020.03.10-04.49.52:536][507]ArenaBattle: Warning: AABPawn::PostInitializeComponents(88)
+[2020.03.10-04.49.52:536][507]LogWorld: Bringing up level for play took: 0.005183
+[2020.03.10-04.49.52:536][507]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.10-04.49.52:537][507]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.10-04.49.52:537][507]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(48)ABGameInstance isn't nullptr
+[2020.03.10-04.49.52:538][507]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(54)CHARACTERSTAT 's CurrentHP : 100.000000
+[2020.03.10-04.49.52:538][507]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.10-04.49.52:538][507]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.10-04.49.52:538][507]PIE: /Game/Book/Maps/UEDPIE_0_Step2 에 대한 에디터에서 플레이 시작 시간: 1.116
+[2020.03.10-04.49.54:075][570]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_3ea2b4d7bf956bcf3d3139082820cf25>::operator ()(148)OnNextAttackCheck
+[2020.03.10-04.49.56:279][648]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_3ea2b4d7bf956bcf3d3139082820cf25>::operator ()(148)OnNextAttackCheck
+[2020.03.10-04.49.58:559][717]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_3ea2b4d7bf956bcf3d3139082820cf25>::operator ()(148)OnNextAttackCheck
+[2020.03.10-04.50.00:277][771]ArenaBattle: Warning: AABCharacter::AttackCheck(358)Hit ActorName: ABCharacter_1
+[2020.03.10-04.50.00:278][771]ArenaBattle: Warning: AABCharacter::TakeDamage(172)Actor : ABCharacter_1 / took Damage : 10.000000 

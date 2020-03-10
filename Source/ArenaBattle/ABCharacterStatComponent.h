@@ -6,6 +6,8 @@
 #include "Components/ActorComponent.h"
 #include "ABCharacterStatComponent.generated.h"
 
+DECLARE_MULTICAST_DELEGATE(FOnHPIsZeroDelegate);
+
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class ARENABATTLE_API UABCharacterStatComponent : public UActorComponent
@@ -26,12 +28,17 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	void SetNewLevel(int32 NewLevel);
+	void SetDamage(float NewDamage);
+	float GetAttack();
+
+	FOnHPIsZeroDelegate OnHPIsZero;
+	
 
 private:
 	struct FABCharacterData* CurrentStatData = nullptr;
-
+	
 	UPROPERTY(EditInstanceOnly, Category = Stat, Meta = (AllowPrivateAccess = true))
-	int Level;
+	int32 Level;
 
 	UPROPERTY(Transient, VisibleInstanceOnly, Category = Stat, Meta = (AllowPrivateAccess = true))
 	float CurrentHP;

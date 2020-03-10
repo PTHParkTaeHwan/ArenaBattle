@@ -11,7 +11,7 @@ UABCharacterStatComponent::UABCharacterStatComponent()
 	PrimaryComponentTick.bCanEverTick = false;
 	bWantsInitializeComponent = true;
 
-	Level = 15;
+	Level = 1;
 	// ...
 }
 
@@ -43,23 +43,34 @@ void UABCharacterStatComponent::SetNewLevel(int32 NewLevel)
 {
 	auto ABGameInstance = Cast<UABGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
 
-	if (ABGameInstance != nullptr)
+	ABCHECK(nullptr != ABGameInstance);
+	CurrentStatData = ABGameInstance->GetABCharacterData(NewLevel);
+	if (nullptr != CurrentStatData)
 	{
-		ABLOG(Warning, TEXT("ABGameInstance isn't nullptr"));
-		CurrentStatData = ABGameInstance->GetABCharacterData(NewLevel);
-		if (nullptr != CurrentStatData)
-		{
-			Level = NewLevel;
-			CurrentHP = CurrentStatData->MaxHP;
-		}
-		else
-		{
-			ABLOG(Error, TEXT("Level (%d) data doesn't exist"), NewLevel);
-		}
+		Level = NewLevel;
+		CurrentHP = CurrentStatData->MaxHP;
+		ABLOG(Warning, TEXT("Level (%d : %f) data set up"), Level, CurrentHP);
 	}
 	else
 	{
-		ABLOG(Warning, TEXT("ABGameInstance is nullptr"));
+		ABLOG(Error, TEXT("Level (%d) data doesn't exist"), NewLevel);
 	}
+}
+
+void UABCharacterStatComponent::SetDamage(float NewDamage)
+{
+	ABCHECK(nullptr != CurrentStatData);
+	CurrentHP = FMath::Clamp<float>(CurrentHP - NewDamage, 0.0f, CurrentStatData->MaxHP);
+
+	if (CurrentHP <= 0.0f)
+	{
+		OnHPIsZero.Broadcast();
+	}
+}
+
+float UABCharacterStatComponent::GetAttack()
+{
+	ABCHECK(nullptr != CurrentStatData, 0.0f);
+	return CurrentStatData->Attack;
 }
 
