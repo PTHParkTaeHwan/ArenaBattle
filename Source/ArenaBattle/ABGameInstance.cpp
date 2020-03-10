@@ -4,11 +4,18 @@
 
 UABGameInstance::UABGameInstance()
 {
-
+	FString CharacterDataPath = TEXT("/Game/Book/GameData/ABCharacterData.ABCharacterData");
+	static ConstructorHelpers::FObjectFinder<UDataTable> DT_ABCHARACTER(*CharacterDataPath);
+	ABCharacterTable = DT_ABCHARACTER.Object;
 }
 
 void UABGameInstance::Init()
 {
 	Super::Init();
-	ABLOG_S(Warning);
+	ABLOG(Warning, TEXT("DropExp 20 : %d"),GetABCharacterData(4)->DropExp);
+}
+
+FABCharacterData * UABGameInstance::GetABCharacterData(int32 Level)
+{
+	return ABCharacterTable->FindRow<FABCharacterData>(*FString::FromInt(Level), TEXT(""));
 }

@@ -1,22 +1,21 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for ArenaBattleEditor (ini files are newer than UBTMakefile)
+  Creating makefile for hot reloading ArenaBattleEditor (modules to compile have changed)
+  Compiling game modules for hot reload
   Parsing headers for ArenaBattleEditor
     Running UnrealHeaderTool "C:\dev\ArenaBattle\ArenaBattle.uproject" "C:\dev\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for ArenaBattleEditor in 8.9295621 seconds
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4453.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-4453.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-474.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-474.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6026.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6026.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8578.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8578.pdb".
-  Performing 4 actions (4 in parallel)
-  ABItemBox.gen.cpp
+  Reflection code generated for ArenaBattleEditor in 9.074398 seconds
+  Performing 7 actions (4 in parallel)
+  ABCharacter.gen.cpp
   ABItemBox.cpp
-  [3/4] Link UE4Editor-ArenaBattle.dll
-  [4/4] Link UE4Editor-ArenaBattle.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.exp 개체를 생성하고 있습니다.
+  ABGameMode.cpp
+  ABCharacter.cpp
+  ArenaBattle.init.gen.cpp
+  [6/7] Link UE4Editor-ArenaBattle-2587.dll
+  [7/7] Link UE4Editor-ArenaBattle-2587.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2587.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2587.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2587.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2587.suppressed.exp 개체를 생성하고 있습니다.
+ABPawn.cpp.obj : warning LNK4206: 미리 컴파일된 형식 정보를 찾을 수 없습니다. ''이(가) 링크되지 않았거나 덮어쓰여졌습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ABPlayerController.cpp.obj : warning LNK4206: 미리 컴파일된 형식 정보를 찾을 수 없습니다. ''이(가) 링크되지 않았거나 덮어쓰여졌습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+ArenaBattle.cpp.obj : warning LNK4206: 미리 컴파일된 형식 정보를 찾을 수 없습니다. ''이(가) 링크되지 않았거나 덮어쓰여졌습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 26.11 seconds (Local executor: 5.85 seconds)
+  Total build time: 27.23 seconds (Local executor: 7.67 seconds)

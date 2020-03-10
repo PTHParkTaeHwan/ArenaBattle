@@ -50,6 +50,10 @@ public:
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	class AABWeapon* CurrentWeapon;
 
+	UPROPERTY(VisibleAnywhere, Category = Stat)
+	class UABCharacterStatComponent* CharacterStat;
+	
+
 	UPROPERTY(VisibleAnywhere, Category = Camera)
 	USpringArmComponent* SpringArm;
 
