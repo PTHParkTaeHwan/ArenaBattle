@@ -25,6 +25,16 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	void SetNewLevel(int32 NewLevel);
+
+private:
+	struct FABCharacterData* CurrentStatData = nullptr;
+
+	UPROPERTY(EditInstanceOnly, Category = Stat, Meta = (AllowPrivateAccess = true))
+	int Level;
+
+	UPROPERTY(Transient, VisibleInstanceOnly, Category = Stat, Meta = (AllowPrivateAccess = true))
+	float CurrentHP;
 		
 	
 };

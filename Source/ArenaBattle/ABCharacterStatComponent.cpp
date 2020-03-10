@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "ABCharacterStatComponent.h"
-
+#include "ABGameInstance.h"
 
 // Sets default values for this component's properties
 UABCharacterStatComponent::UABCharacterStatComponent()
@@ -11,6 +11,7 @@ UABCharacterStatComponent::UABCharacterStatComponent()
 	PrimaryComponentTick.bCanEverTick = false;
 	bWantsInitializeComponent = true;
 
+	Level = 15;
 	// ...
 }
 
@@ -19,7 +20,6 @@ UABCharacterStatComponent::UABCharacterStatComponent()
 void UABCharacterStatComponent::BeginPlay()
 {
 	Super::BeginPlay();
-
 	// ...
 	
 }
@@ -27,6 +27,7 @@ void UABCharacterStatComponent::BeginPlay()
 void UABCharacterStatComponent::InitializeComponent()
 {
 	Super::InitializeComponent();
+	SetNewLevel(Level);
 }
 
 
@@ -36,5 +37,29 @@ void UABCharacterStatComponent::TickComponent(float DeltaTime, ELevelTick TickTy
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
+}
+
+void UABCharacterStatComponent::SetNewLevel(int32 NewLevel)
+{
+	auto ABGameInstance = Cast<UABGameInstance>(UGameplayStatics::GetGameInstance(GetWorld()));
+
+	if (ABGameInstance != nullptr)
+	{
+		ABLOG(Warning, TEXT("ABGameInstance isn't nullptr"));
+		CurrentStatData = ABGameInstance->GetABCharacterData(NewLevel);
+		if (nullptr != CurrentStatData)
+		{
+			Level = NewLevel;
+			CurrentHP = CurrentStatData->MaxHP;
+		}
+		else
+		{
+			ABLOG(Error, TEXT("Level (%d) data doesn't exist"), NewLevel);
+		}
+	}
+	else
+	{
+		ABLOG(Warning, TEXT("ABGameInstance is nullptr"));
+	}
 }
 
