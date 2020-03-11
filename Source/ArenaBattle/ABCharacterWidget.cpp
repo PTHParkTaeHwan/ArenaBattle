@@ -2,6 +2,7 @@
 
 #include "ABCharacterWidget.h"
 #include "ABCharacterStatComponent.h"
+#include "ProgressBar.h"
 
 void UABCharacterWidget::BindCharacterStat(UABCharacterStatComponent* NewCharacterStat)
 {
@@ -9,11 +10,31 @@ void UABCharacterWidget::BindCharacterStat(UABCharacterStatComponent* NewCharact
 	ABLOG(Warning, TEXT("NewCharacterStat true"));
 
 	CurrentCharacterStat = NewCharacterStat;
-	NewCharacterStat->OnHPChanged.AddLambda([this]() -> void {
+	NewCharacterStat->OnHPChanged.AddUObject(this, &UABCharacterWidget::UpdateHPWidget);
+	/*NewCharacterStat->OnHPChanged.AddLambda([this]() -> void {
 		if (CurrentCharacterStat.IsValid())
 		{
 			ABLOG(Warning, TEXT("HPRatio : %f"), CurrentCharacterStat->GetHPRatio());
 		}
-	});
+	});*/
 }
 
+void UABCharacterWidget::NativeConstruct()
+{
+	Super::NativeConstruct();
+	HPProgressBar = Cast<UProgressBar>(GetWidgetFromName(TEXT("PB_HPBar")));
+	ABCHECK(nullptr != HPProgressBar);
+	UpdateHPWidget();
+}
+
+void UABCharacterWidget::UpdateHPWidget()
+{
+	if (CurrentCharacterStat.IsValid())
+	{
+		if (nullptr != HPProgressBar)
+		{
+			HPProgressBar->SetPercent(CurrentCharacterStat->GetHPRatio());
+		}
+	}
+
+}

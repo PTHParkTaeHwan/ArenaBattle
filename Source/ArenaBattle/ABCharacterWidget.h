@@ -17,8 +17,14 @@ class ARENABATTLE_API UABCharacterWidget : public UUserWidget
 public:
 	void BindCharacterStat(class UABCharacterStatComponent* NewCharacterStat);
 
+protected:
+	virtual void NativeConstruct() override;
+	void UpdateHPWidget();
+
 private:
 	TWeakObjectPtr<class UABCharacterStatComponent> CurrentCharacterStat;	
 	
+	UPROPERTY()
+	class UProgressBar* HPProgressBar;
 	
 };
