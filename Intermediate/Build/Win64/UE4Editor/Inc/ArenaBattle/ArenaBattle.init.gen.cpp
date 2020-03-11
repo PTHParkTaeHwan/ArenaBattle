@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeArenaBattle_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/ArenaBattle",
 				PKG_CompiledIn | 0x00000000,
-				0x62FDEA62,
-				0x8DDB6853,
+				0x7BC522B2,
+				0x01B4EDDE,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
