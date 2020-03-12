@@ -1,10 +1,6 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading ArenaBattleEditor (ini files are newer than UBTMakefile)
   Compiling game modules for hot reload
-  Performing 3 actions (4 in parallel)
-  ABCharacter.cpp
-  [2/3] Link UE4Editor-ArenaBattle-5292.dll
-  [3/3] Link UE4Editor-ArenaBattle-5292.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5292.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5292.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5292.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-5292.suppressed.exp 개체를 생성하고 있습니다.
+  Target is up to date
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 7.97 seconds (Local executor: 6.36 seconds)
+  Total build time: 10.10 seconds (NoActionsToExecute executor: 0.00 seconds)
