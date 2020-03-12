@@ -14,14 +14,33 @@ class ARENABATTLE_API AABSection : public AActor
 public:	
 	// Sets default values for this actor's properties
 	AABSection();
+	virtual void OnConstruction(const FTransform& Transform) override;
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+private:
+	enum class ESectionState : uint8
+	{
+		READY = 0,
+		BATTLE,
+		COMPLETE
+	};
+
+	void SetState(ESectionState NewState);
+	ESectionState CurrentState = ESectionState::READY;
+
+	void OperateGates(bool bOpen = true);
+
+	UFUNCTION()
+	void OnTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &SweepResult);
+
+	UFUNCTION()
+	void OnGateTriggerBeginOverlap(UPrimitiveComponent* OverlappedComponent, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &SweepResult);
+	
+	void OnNPCSpawn();
+
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = Mesh, Meta = (AllowPrivateAccess = true))
@@ -35,4 +54,17 @@ private:
 	
 	UPROPERTY(VisibleAnywhere, Category = Trigger, Meta = (AllowPrivateAccess = true))
 	UBoxComponent* Trigger;
+
+	UPROPERTY(EditAnywhere, Category = State, Meta = (AllowPrivateAccess = true))
+	bool bNoBattle;
+
+	UPROPERTY(EditAnywhere, Category = Spawn, Meta = (AllowPrivateAccess = true))
+	float EnemySpawnTime;
+	
+	UPROPERTY(EditAnywhere, Category = Spawn, Meta = (AllowPrivateAccess = true))
+	float ItemBoxSpawnTime;
+
+	FTimerHandle SpawnNPCTimerHandle = {};
+	FTimerHandle SpawnItemBoxHandle = {};
+
 };
