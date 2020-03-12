@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "GeneratedCppIncludes.h"
-#include "ABGameMode.h"
+#include "Public/ABGameMode.h"
 #ifdef _MSC_VER
 #pragma warning (push)
 #pragma warning (disable : 4883)
@@ -38,7 +38,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 			static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 				{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering Utilities|Transformation" },
 				{ "IncludePath", "ABGameMode.h" },
-				{ "ModuleRelativePath", "ABGameMode.h" },
+				{ "ModuleRelativePath", "Public/ABGameMode.h" },
 				{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 			};
 #endif
@@ -60,7 +60,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABGameMode, 1472106053);
+	IMPLEMENT_CLASS(AABGameMode, 3759762308);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABGameMode(Z_Construct_UClass_AABGameMode, &AABGameMode::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

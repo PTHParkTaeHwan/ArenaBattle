@@ -25,6 +25,7 @@
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source"
 /I C:\dev\ArenaBattle\Source
+/I C:\dev\ArenaBattle\Source\ArenaBattle\Public
 /I C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattle
 /I C:\dev\ArenaBattle\Source\ArenaBattle
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\Core\Public"
@@ -361,10 +362,13 @@
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\DSP"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer"
 /I "C:\Program Files\Epic Games\UE_4.19\Engine\Source\Runtime\AudioMixer"
+/I C:\dev\ArenaBattle\Source\ArenaBattleSetting\Public
+/I C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Inc\ArenaBattleSetting
+/I C:\dev\ArenaBattle\Source\ArenaBattleSetting
 /FI"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Program Files\Epic Games\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\dev\ArenaBattle\Source\ArenaBattle\ABGameMode.cpp"
+"C:\dev\ArenaBattle\Source\ArenaBattle\Private\ABGameMode.cpp"
 /FI"C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\Definitions.ArenaBattle.h"
 /Fo"C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\ArenaBattle\ABGameMode.cpp.obj"
 /TP
