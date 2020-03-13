@@ -1,14 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Compiling game modules for hot reload
   Performing 5 actions (4 in parallel)
-  [3/5] Link UE4Editor-ArenaBattleSetting-4147.lib
-  [2/5] Link UE4Editor-ArenaBattleSetting-4147.dll
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-4147.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-4147.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-4147.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-4147.suppressed.exp 개체를 생성하고 있습니다.
-  ABCharacter.cpp
-  [4/5] Link UE4Editor-ArenaBattle-9025.dll
-  [5/5] Link UE4Editor-ArenaBattle-9025.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-9025.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-9025.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-9025.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-9025.suppressed.exp 개체를 생성하고 있습니다.
+  [2/5] Link UE4Editor-ArenaBattleSetting-9149.dll
+  [3/5] Link UE4Editor-ArenaBattleSetting-9149.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-9149.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-9149.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-9149.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-9149.suppressed.exp 개체를 생성하고 있습니다.
+  ABPlayerController.cpp
+  [4/5] Link UE4Editor-ArenaBattle-2260.dll
+  [5/5] Link UE4Editor-ArenaBattle-2260.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2260.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2260.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2260.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-2260.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 10.04 seconds (Local executor: 7.77 seconds)
+  Total build time: 7.69 seconds (Local executor: 6.05 seconds)

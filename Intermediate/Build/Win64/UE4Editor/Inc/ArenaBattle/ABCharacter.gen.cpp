@@ -19,6 +19,9 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_ArenaBattle();
 	ARENABATTLE_API UFunction* Z_Construct_UFunction_AABCharacter_OnAttackMontageEnded();
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
+	ARENABATTLE_API UClass* Z_Construct_UClass_AABPlayerController_NoRegister();
+	ARENABATTLE_API UClass* Z_Construct_UClass_AABAIController_NoRegister();
+	ARENABATTLE_API UEnum* Z_Construct_UEnum_ArenaBattle_ECharacterState();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABAnimInstance_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UWidgetComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -84,6 +87,44 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 				{ "ModuleRelativePath", "Public/ABCharacter.h" },
 			};
 #endif
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DeadTimer_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "State" },
+				{ "ModuleRelativePath", "Public/ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FFloatPropertyParams NewProp_DeadTimer = { UE4CodeGen_Private::EPropertyClass::Float, "DeadTimer", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000005, 1, nullptr, STRUCT_OFFSET(AABCharacter, DeadTimer), METADATA_PARAMS(NewProp_DeadTimer_MetaData, ARRAY_COUNT(NewProp_DeadTimer_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABPlayerController_MetaData[] = {
+				{ "ModuleRelativePath", "Public/ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABPlayerController = { UE4CodeGen_Private::EPropertyClass::Object, "ABPlayerController", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AABCharacter, ABPlayerController), Z_Construct_UClass_AABPlayerController_NoRegister, METADATA_PARAMS(NewProp_ABPlayerController_MetaData, ARRAY_COUNT(NewProp_ABPlayerController_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABAIController_MetaData[] = {
+				{ "ModuleRelativePath", "Public/ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABAIController = { UE4CodeGen_Private::EPropertyClass::Object, "ABAIController", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AABCharacter, ABAIController), Z_Construct_UClass_AABAIController_NoRegister, METADATA_PARAMS(NewProp_ABAIController_MetaData, ARRAY_COUNT(NewProp_ABAIController_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bIsPlayer_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "State" },
+				{ "ModuleRelativePath", "Public/ABCharacter.h" },
+			};
+#endif
+			auto NewProp_bIsPlayer_SetBit = [](void* Obj){ ((AABCharacter*)Obj)->bIsPlayer = 1; };
+			static const UE4CodeGen_Private::FBoolPropertyParams NewProp_bIsPlayer = { UE4CodeGen_Private::EPropertyClass::Bool, "bIsPlayer", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000022815, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AABCharacter), &UE4CodeGen_Private::TBoolSetBitWrapper<decltype(NewProp_bIsPlayer_SetBit)>::SetBit, METADATA_PARAMS(NewProp_bIsPlayer_MetaData, ARRAY_COUNT(NewProp_bIsPlayer_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentState_MetaData[] = {
+				{ "AllowPrivateAccess", "TRUE" },
+				{ "Category", "State" },
+				{ "ModuleRelativePath", "Public/ABCharacter.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumPropertyParams NewProp_CurrentState = { UE4CodeGen_Private::EPropertyClass::Enum, "CurrentState", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000022815, 1, nullptr, STRUCT_OFFSET(AABCharacter, CurrentState), Z_Construct_UEnum_ArenaBattle_ECharacterState, METADATA_PARAMS(NewProp_CurrentState_MetaData, ARRAY_COUNT(NewProp_CurrentState_MetaData)) };
+			static const UE4CodeGen_Private::FBytePropertyParams NewProp_CurrentState_Underlying = { UE4CodeGen_Private::EPropertyClass::Byte, "UnderlyingType", RF_Public|RF_Transient|RF_MarkAsNative, 0x0000000000000000, 1, nullptr, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AttackRadius_MetaData[] = {
 				{ "AllowPrivateAccess", "TRUE" },
@@ -189,6 +230,12 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentWeapon = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentWeapon", RF_Public|RF_Transient|RF_MarkAsNative, 0x0010000000020001, 1, nullptr, STRUCT_OFFSET(AABCharacter, CurrentWeapon), Z_Construct_UClass_AABWeapon_NoRegister, METADATA_PARAMS(NewProp_CurrentWeapon_MetaData, ARRAY_COUNT(NewProp_CurrentWeapon_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_DeadTimer,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ABPlayerController,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ABAIController,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_bIsPlayer,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentState,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_CurrentState_Underlying,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackRadius,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_AttackRange,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ABAnim,
@@ -221,7 +268,7 @@ void EmptyLinkFunctionForGeneratedCodeABCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABCharacter, 1459894548);
+	IMPLEMENT_CLASS(AABCharacter, 386470764);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABCharacter(Z_Construct_UClass_AABCharacter, &AABCharacter::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

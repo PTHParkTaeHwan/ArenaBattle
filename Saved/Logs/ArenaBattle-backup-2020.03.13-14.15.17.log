@@ -1,0 +1,1272 @@
+﻿Log file open, 03/13/20 09:36:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ArenaBattle
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-279874755) SRandInit(-279874754).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.325097
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.176s to configure plugins.
+LogModuleManager: Warning: Module file ../../../../../../dev/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattleSetting-3527.dll is missing. This is likely a stale module that must be recompiled.
+LogModuleManager: Display: Found up-to-date module file ../../../../../../dev/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle-6139.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Warning: Incompatible or missing module: UE4Editor-ArenaBattleSetting.dll
+Running C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/DotNET/UnrealBuildTool.exe ArenaBattle Development Win64 -project="C:/dev/ArenaBattle/ArenaBattle.uproject" -editorrecompile -progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build.
+@progress push 5%
+@progress pop
+Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6139.dll".
+Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6139.pdb".
+Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-5009.dll".
+Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-5009.pdb".
+Performing 2 actions (4 in parallel)
+[1/2] Link UE4Editor-ArenaBattle.dll
+[2/2] Link UE4Editor-ArenaBattle.lib
+   C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.lib ???̺귯?? ?? C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+   C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.lib ???̺귯?? ?? C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+Deploying ArenaBattleEditor Win64 Development...
+Total build time: 4.07 seconds (Local executor: 2.33 seconds)
+LogModuleManager: Display: Found up-to-date module file ../../../../../../dev/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattleSetting.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../../../../dev/ArenaBattle/Binaries/Win64/UE4Editor-ArenaBattle.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-2UPP01C (192.168.0.39:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.008s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.03.13-00.37.04:485][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.13-00.37.04:485][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.13-00.37.04:500][  0]LogInit: Computer: DESKTOP-2UPP01C
+[2020.03.13-00.37.04:500][  0]LogInit: User: pth08
+[2020.03.13-00.37.04:500][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.03.13-00.37.04:500][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.13-00.37.04:501][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.13-00.37.04:501][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.13-00.37.04:501][  0]LogMemory: Process Physical Memory: 285.04 MB used, 285.04 MB peak
+[2020.03.13-00.37.04:501][  0]LogMemory: Process Virtual Memory: 265.59 MB used, 265.59 MB peak
+[2020.03.13-00.37.04:501][  0]LogMemory: Physical Memory: 8866.99 MB used,  7432.30 MB free, 16299.29 MB total
+[2020.03.13-00.37.04:501][  0]LogMemory: Virtual Memory: 4830.23 MB used,  7432.30 MB free, 134217728.00 MB total
+[2020.03.13-00.37.04:529][  0]LogInit: Using OS detected language (ko-KR).
+[2020.03.13-00.37.04:529][  0]LogInit: Using OS detected locale (ko-KR).
+[2020.03.13-00.37.04:537][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2020.03.13-00.37.04:957][  0]LogStreaming: Display: Took  0.428s to EndInitTextLocalization.
+[2020.03.13-00.37.04:958][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.13-00.37.05:012][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.13-00.37.05:012][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.13-00.37.05:457][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.13-00.37.05:476][  0]LogD3D11RHI:    0. 'Intel(R) UHD Graphics 620' (Feature Level 11_0)
+[2020.03.13-00.37.05:476][  0]LogD3D11RHI:       128/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2020.03.13-00.37.06:762][  0]LogD3D11RHI:    1. 'Radeon(TM) 540 Graphics' (Feature Level 11_0)
+[2020.03.13-00.37.06:762][  0]LogD3D11RHI:       1995/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2020.03.13-00.37.06:766][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.13-00.37.06:766][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.13-00.37.06:766][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2020.03.13-00.37.06:778][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.13-00.37.06:779][  0]LogD3D11RHI:     GPU DeviceId: 0x699f (for the marketing name, search the web for "GPU Device Id")
+[2020.03.13-00.37.06:779][  0]LogWindows: EnumDisplayDevices:
+[2020.03.13-00.37.06:779][  0]LogWindows:    0. 'Intel(R) UHD Graphics 620' (P:0 D:1)
+[2020.03.13-00.37.06:780][  0]LogWindows:    1. 'Intel(R) UHD Graphics 620' (P:1 D:1)
+[2020.03.13-00.37.06:781][  0]LogWindows:    2. 'Intel(R) UHD Graphics 620' (P:0 D:0)
+[2020.03.13-00.37.06:782][  0]LogWindows:    3. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:783][  0]LogWindows:    4. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:784][  0]LogWindows:    5. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:785][  0]LogWindows:    6. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:785][  0]LogWindows:    7. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:786][  0]LogWindows:    8. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:787][  0]LogWindows:    9. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:788][  0]LogWindows:    10. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:789][  0]LogWindows:    11. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:790][  0]LogWindows:    12. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:791][  0]LogWindows:    13. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:792][  0]LogWindows:    14. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:792][  0]LogWindows:    15. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:793][  0]LogWindows:    16. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:794][  0]LogWindows:    17. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:795][  0]LogWindows:    18. 'Radeon(TM) 540 Graphics' (P:0 D:0)
+[2020.03.13-00.37.06:795][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.03.13-00.37.06:795][  0]LogD3D11RHI:     Adapter Name: Radeon(TM) 540 Graphics
+[2020.03.13-00.37.06:795][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.03.13-00.37.06:795][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.03.13-00.37.06:795][  0]LogRHI: Texture pool is 1396 MB (70% of 1995 MB)
+[2020.03.13-00.37.06:943][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.13-00.37.06:954][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.03.13-00.37.06:956][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../../dev/ArenaBattle/Intermediate/Shaders/WorkingDirectory/17272/).
+[2020.03.13-00.37.06:956][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/pth08/AppData/Local/Temp/UnrealShaderWorkingDir/B8DF6F8D476E72875C1E58A169598137/'.
+[2020.03.13-00.37.07:285][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.03.13-00.37.07:310][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.03.13-00.37.07:331][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.03.13-00.37.07:352][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.03.13-00.37.07:373][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.03.13-00.37.07:397][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.03.13-00.37.07:421][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.03.13-00.37.07:440][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.03.13-00.37.07:449][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.03.13-00.37.07:464][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.03.13-00.37.07:479][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.03.13-00.37.07:496][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.03.13-00.37.07:513][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2020.03.13-00.37.07:530][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.03.13-00.37.07:547][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.03.13-00.37.07:582][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.03.13-00.37.07:582][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.03.13-00.37.07:597][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.03.13-00.37.07:600][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.03.13-00.37.07:642][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.03.13-00.37.07:660][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.03.13-00.37.07:676][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.03.13-00.37.07:695][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.03.13-00.37.07:715][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.03.13-00.37.07:732][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.03.13-00.37.07:732][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.13-00.37.07:942][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.13-00.37.07:943][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.13-00.37.07:943][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.13-00.37.09:031][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.13-00.37.09:098][  0]LogDerivedDataCache: Loaded boot cache 0.07s 85MB C:/Users/pth08/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2020.03.13-00.37.09:098][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/pth08/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2020.03.13-00.37.09:098][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../dev/ArenaBattle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.13-00.37.09:098][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.13-00.37.09:098][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../dev/ArenaBattle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.13-00.37.09:098][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.13-00.37.09:116][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.13-00.37.09:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/pth08/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.13-00.37.09:129][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.13-00.37.09:129][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.13-00.37.09:144][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.13-00.37.09:145][  0]LogSlate: Using Freetype 2.6.0
+[2020.03.13-00.37.09:146][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.13-00.37.09:146][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.13-00.37.09:350][  0]LogAssetRegistry: FAssetRegistry took 0.0289 seconds to start up
+[2020.03.13-00.37.09:768][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.13-00.37.09:954][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.03.13-00.37.09:958][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.03.13-00.37.09:958][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.13-00.37.09:958][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.03.13-00.37.09:958][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.03.13-00.37.09:958][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.03.13-00.37.10:018][  0]LogNetVersion: ArenaBattle , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3555152549)
+[2020.03.13-00.37.10:556][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.081870 seconds
+[2020.03.13-00.37.10:561][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2020.03.13-00.37.10:561][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2020.03.13-00.37.10:561][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.13-00.37.12:916][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.13-00.37.12:960][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.13-00.37.13:370][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [3.243000ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Cardboard.SK_CharM_Cardboard
+[2020.03.13-00.37.13:389][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a5fb4d0eb0, Size=24, Default__WarriorAnimBlueprint_C Function /Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2020.03.13-00.37.13:399][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a5fb4d0eb0, Size=24
+[2020.03.13-00.37.13:399][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a5fb514268, Size=24, Default__WarriorAnimBlueprint_C Function /Engine/Transient.REINST_WarriorAnimBlueprint_C_0:ExecuteUbergraph_WarriorAnimBlueprint
+[2020.03.13-00.37.13:407][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001a5fb516b60, Size=24, Default__WarriorAnimBlueprint_C Function /Game/Book/Animations/WarriorAnimBlueprint.WarriorAnimBlueprint_C:ExecuteUbergraph_WarriorAnimBlueprint
+[2020.03.13-00.37.13:606][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.976700ms] /Game/InfinityBladeWeapons/Weapons/Blade/Swords/Blade_BlackKnight/SK_Blade_BlackKnight.SK_Blade_BlackKnight
+[2020.03.13-00.37.13:850][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.13-00.37.13:850][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.13-00.37.13:879][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.13-00.37.13:913][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.13-00.37.14:682][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.13-00.37.15:677][  0]LogOcInput: OculusInput pre-init called
+[2020.03.13-00.37.15:835][  0]LogEngine: Initializing Engine...
+[2020.03.13-00.37.15:837][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.03.13-00.37.15:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.13-00.37.15:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.13-00.37.16:095][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.13-00.37.16:635][  0]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-00.37.16:782][  0]LogInit: FAudioDevice initialized.
+[2020.03.13-00.37.16:838][  0]LogDerivedDataCache: Saved boot cache 0.06s 85MB C:/Users/pth08/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2020.03.13-00.37.16:850][  0]LogInit: Texture streaming: Enabled
+[2020.03.13-00.37.16:881][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.03.13-00.37.16:904][  0]LogInit: Transaction tracking system initialized
+[2020.03.13-00.37.16:944][  0]BlueprintLog: New page: 에디터 로드
+[2020.03.13-00.37.17:073][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2020.03.13-00.37.17:230][  0]LogConsoleResponse: Display: 
+[2020.03.13-00.37.17:440][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.13-00.37.17:440][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.13-00.37.17:440][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.03.13-00.37.17:440][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.03.13-00.37.17:440][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.03.13-00.37.18:035][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Content/' took 0.05s
+[2020.03.13-00.37.18:092][  0]SourceControl: 소스 콘트롤이 꺼졌습니다.
+[2020.03.13-00.37.18:092][  0]Cmd: MAP LOAD FILE="../../../../../../dev/ArenaBattle/Content/Book/Maps/Step4.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.13-00.37.18:093][  0]LightingResults: New page: 라이팅 빌드
+[2020.03.13-00.37.18:097][  0]MapCheck: New page: 맵 체크
+[2020.03.13-00.37.18:097][  0]LightingResults: New page: 라이팅 빌드
+[2020.03.13-00.37.18:106][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a5fb514268, Size=24
+[2020.03.13-00.37.18:318][  0]LogAIModule: Creating AISystem for world Step4
+[2020.03.13-00.37.18:324][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.13-00.37.18:340][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.13-00.37.18:471][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 131.575ms.
+[2020.03.13-00.37.18:471][  0]LogFileHelpers: Loading map 'Step4' took 0.379
+[2020.03.13-00.37.18:721][  0]LogCollectionManager: Loaded 0 collections in 0.003330 seconds
+[2020.03.13-00.37.18:779][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Saved/Collections/' took 0.01s
+[2020.03.13-00.37.18:779][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Content/Developers/pth08/Collections/' took 0.01s
+[2020.03.13-00.37.18:779][  0]LogFileCache: Scanning file cache for directory 'C:/dev/ArenaBattle/Content/Collections/' took 0.01s
+[2020.03.13-00.37.18:779][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.03.13-00.37.18:792][  0]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2470 classes and 563 folders.
+[2020.03.13-00.37.18:809][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2020.03.13-00.37.18:884][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0039 seconds. Added 0 classes and 0 folders.
+[2020.03.13-00.37.18:895][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2020.03.13-00.37.18:973][  0]LogSlate: Took 0.000379 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.13-00.37.18:976][  0]LogSlate: Took 0.002376 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2020.03.13-00.37.18:983][  0]LogSlate: Took 0.003029 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2020.03.13-00.37.18:983][  0]LogSlate: Took 0.000407 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.13-00.37.18:988][  0]LogSlate: Took 0.000491 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.13-00.37.19:110][  0]LogRenderer: Reallocating scene render targets to support 1152x640 Format 10 NumSamples 1 (Frame:1).
+[2020.03.13-00.37.19:367][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2020.03.13-00.37.19:367][  0]LogLoad: (Engine Initialization) Total time: 28.40 seconds
+[2020.03.13-00.37.19:368][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.13-00.37.19:409][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.13-00.37.19:456][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.13-00.37.19:507][  2]LogAssetRegistry: Asset discovery search completed in 10.1783 seconds
+[2020.03.13-00.37.19:513][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.03.13-00.37.19:513][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000152 seconds (updated 0 objects)
+[2020.03.13-00.37.23:420][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-00.37.23:545][118]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.13-00.37.23:596][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-00.37.23:603][118]PIE: New page: PIE 세션: Step4 (2020. 3. 13. 오후 6:37:23)
+[2020.03.13-00.37.23:604][118]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2020.03.13-00.37.23:615][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011316s)
+[2020.03.13-00.37.23:617][118]LogAIModule: Creating AISystem for world Step4
+[2020.03.13-00.37.23:617][118]LogPlayLevel: PIE: World Init took: (0.001709s)
+[2020.03.13-00.37.23:617][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.013621s)
+[2020.03.13-00.37.23:642][118]ArenaBattle: Warning: UABGameInstance::Init(17)DropExp 20 : 25
+[2020.03.13-00.37.24:355][118]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-00.37.24:458][118]LogInit: FAudioDevice initialized.
+[2020.03.13-00.37.24:510][118]LogLoad: Game class is 'ABGameMode'
+[2020.03.13-00.37.24:519][118]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 60) at 2020.03.13-09.37.24
+[2020.03.13-00.37.24:521][118]LogWorld: Bringing up level for play took: 0.003662
+[2020.03.13-00.37.24:523][118]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.13-00.37.24:526][118]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.13-00.37.24:536][118]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0031 seconds. Added 11 classes and 0 folders.
+[2020.03.13-00.37.24:549][118]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-00.37.24:554][118]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-00.37.24:555][118]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.13-00.37.24:556][118]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.13-00.37.24:557][118]PIE: /Game/Book/Maps/UEDPIE_0_Step4 에 대한 에디터에서 플레이 시작 시간: 1.335
+[2020.03.13-02.34.58:483][638]LogHotReload: New module detected: UE4Editor-ArenaBattle-1855.dll
+[2020.03.13-02.35.00:172][644]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.13-02.35.00:204][644]LogSlate: Took 0.002811 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.13-02.35.00:999][644]LogClass: Could not find existing class ABSection in package /Script/ArenaBattle for HotReload, assuming new class
+[2020.03.13-02.35.01:000][644]LogClass: Function OnGateTriggerBeginOverlap is new.
+[2020.03.13-02.35.01:000][644]LogClass: Function OnTriggerBeginOverlap is new.
+[2020.03.13-02.35.01:003][644]LogClass: ABCharacterData HotReload.
+[2020.03.13-02.35.01:014][644]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.13-02.35.01:106][644]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.13-02.35.01:159][644]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.13-02.35.01:214][644]LogHotReload: Re-instancing ABSection after hot-reload.
+[2020.03.13-02.35.01:363][644]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0043 seconds. Added 17 classes and 2 folders.
+[2020.03.13-02.35.01:366][644]Display: HotReload successful (5 functions remapped  1 scriptstructs remapped)
+[2020.03.13-02.35.01:501][644]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2471 classes and 565 folders.
+[2020.03.13-02.35.01:534][644]Display: HotReload took  1.4s.
+[2020.03.13-03.02.32:949][777]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-03.02.33:055][783]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.13-03.02.33:172][783]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-03.02.33:174][783]PIE: New page: PIE 세션: Step4 (2020. 3. 13. 오후 9:02:33)
+[2020.03.13-03.02.33:175][783]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2020.03.13-03.02.33:210][783]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034493s)
+[2020.03.13-03.02.33:217][783]LogAIModule: Creating AISystem for world Step4
+[2020.03.13-03.02.33:219][783]LogPlayLevel: PIE: World Init took: (0.008261s)
+[2020.03.13-03.02.33:219][783]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.044652s)
+[2020.03.13-03.02.33:255][783]ArenaBattle: Warning: UABGameInstance::Init(17)DropExp 20 : 25
+[2020.03.13-03.02.34:004][783]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-03.02.34:104][783]LogInit: FAudioDevice initialized.
+[2020.03.13-03.02.34:138][783]LogLoad: Game class is 'ABGameMode'
+[2020.03.13-03.02.34:139][783]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 60) at 2020.03.13-12.02.34
+[2020.03.13-03.02.34:140][783]LogWorld: Bringing up level for play took: 0.001277
+[2020.03.13-03.02.34:140][783]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.13-03.02.34:141][783]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.13-03.02.34:142][783]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-03.02.34:143][783]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-03.02.34:143][783]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.13-03.02.34:143][783]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.13-03.02.34:144][783]PIE: /Game/Book/Maps/UEDPIE_0_Step4 에 대한 에디터에서 플레이 시작 시간: 0.922
+[2020.03.13-03.02.39:370][978]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-03.02.39:375][978]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-03.02.39:650][985]LogSkeletalMesh: Skeletal Mesh found in DDC [5.424500ms] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Forge.SK_CharM_Forge
+[2020.03.13-03.02.45:534][184]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.13-03.02.49:180][318]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.49:181][318]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.49:181][318]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.49:408][328]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.49:647][339]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.49:647][339]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.49:647][339]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.50:104][361]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.50:347][374]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.50:389][376]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.50:389][376]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.50:390][376]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.51:017][408]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.51:634][433]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-03.02.51:634][433]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.51:634][433]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-03.02.51:887][444]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.51:887][444]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.51:887][444]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.51:887][444]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.53:155][505]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-03.02.53:155][505]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.53:155][505]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-03.02.53:258][510]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.53:258][510]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.53:258][510]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.53:405][518]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.53:499][523]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.53:748][534]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.53:748][534]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.53:749][534]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.54:191][557]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.54:475][573]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.54:475][573]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.54:475][573]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.54:659][584]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-03.02.54:659][584]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.54:659][584]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-03.02.54:909][598]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.55:107][606]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.56:424][668]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.57:289][698]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.02.57:289][698]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.57:290][698]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.02.57:534][708]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.57:720][714]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-03.02.57:721][714]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.57:721][714]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-03.02.57:967][723]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.58:252][732]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.59:154][759]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.02.59:243][762]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-03.02.59:244][762]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.02.59:244][762]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-03.02.59:530][769]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.00:003][783]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.03.00:003][783]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.00:004][783]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.03.01:075][814]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.01:442][822]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.03.01:443][822]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.01:443][822]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.03.01:443][822]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_d083f2c60cda291149443bee8fc6767e>::operator ()(182)OnHPIsZero
+[2020.03.13-03.03.01:687][830]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.02:445][845]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.02:707][853]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.03:307][875]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.06:785][992]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-03.03.08:453][ 48]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.09:789][ 93]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-03.03.09:789][ 93]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.09:789][ 93]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-03.03.10:052][102]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.11:830][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-03.03.12:940][201]Cmd: STAT FPS
+[2020.03.13-03.03.17:302][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-03.03.17:385][349]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.13-03.03.17:472][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-03.03.17:473][349]PIE: New page: PIE 세션: Step4 (2020. 3. 13. 오후 9:03:17)
+[2020.03.13-03.03.17:474][349]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2020.03.13-03.03.17:485][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011529s)
+[2020.03.13-03.03.17:487][349]LogAIModule: Creating AISystem for world Step4
+[2020.03.13-03.03.17:488][349]LogPlayLevel: PIE: World Init took: (0.002253s)
+[2020.03.13-03.03.17:488][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.014509s)
+[2020.03.13-03.03.17:518][349]ArenaBattle: Warning: UABGameInstance::Init(17)DropExp 20 : 25
+[2020.03.13-03.03.18:313][349]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-03.03.18:406][349]LogInit: FAudioDevice initialized.
+[2020.03.13-03.03.18:443][349]LogLoad: Game class is 'ABGameMode'
+[2020.03.13-03.03.18:444][349]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 60) at 2020.03.13-12.03.18
+[2020.03.13-03.03.18:445][349]LogWorld: Bringing up level for play took: 0.000928
+[2020.03.13-03.03.18:445][349]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.13-03.03.18:445][349]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.13-03.03.18:446][349]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-03.03.18:446][349]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-03.03.18:446][349]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.13-03.03.18:446][349]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.13-03.03.18:447][349]PIE: /Game/Book/Maps/UEDPIE_0_Step4 에 대한 에디터에서 플레이 시작 시간: 1.225
+[2020.03.13-03.03.23:390][519]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-03.03.23:391][519]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-03.03.31:444][798]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.13-03.03.32:403][842]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.03.32:403][842]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.32:403][842]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.03.32:662][854]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.32:902][868]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.03.32:902][868]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.32:902][868]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.03.33:357][889]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.34:276][931]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.34:371][935]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.36:130][  5]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.36:812][ 30]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.37:761][ 61]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.39:995][132]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.03.39:996][132]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.39:996][132]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.03.40:081][136]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.40:242][143]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.40:925][169]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.42:050][222]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-03.03.42:051][222]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-03.03.42:051][222]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-03.03.42:303][231]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.43:693][298]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.44:103][317]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.44:797][348]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-03.03.50:568][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-04.54.53:203][630]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-04.54.54:208][658]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-04.54.55:001][658]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.03.13-04.54.56:010][659]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ArenaBattle
+[2020.03.13-04.54.56:010][659]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2020.03.13-04.54.56:010][659]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2020.03.13-04.54.56:010][659]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2020.03.13-04.54.56:010][659]LogTemp: BranchPath = DESKTOP-2UPP01C/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-2UPP01C/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2020.03.13-04.54.56:034][659]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\pth08\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.03.13-04.55.13:045][206]LogClass: Warning: In asset 'None', there is an enum property of type 'ERuntimeGenerationType' with an invalid value of ''
+[2020.03.13-04.55.47:289][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Book/Maps/Step4" FILE="../../../../../../dev/ArenaBattle/Saved/Autosaves/Game/Book/Maps/Step4_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2020.03.13-04.55.47:461][265]LogSavePackage: Save=91.37ms
+[2020.03.13-04.55.47:461][265]LogSavePackage: Moving '../../../../../../dev/ArenaBattle/Saved/Step4_Auto1DFF4E4B643BEE02F154046B599B0D711.tmp' to '../../../../../../dev/ArenaBattle/Saved/Autosaves/Game/Book/Maps/Step4_Auto1.umap'
+[2020.03.13-04.55.47:468][265]LogSavePackage: Display: Finished SavePackage ../../../../../../dev/ArenaBattle/Saved/Autosaves/Game/Book/Maps/Step4_Auto1.umap
+[2020.03.13-04.55.47:476][265]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Book/Maps/Step4' took 0.222
+[2020.03.13-04.55.47:476][265]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.222
+[2020.03.13-04.56.24:271][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-04.56.24:318][459]LogSlate: Window '프로젝트 세팅' being destroyed
+[2020.03.13-04.56.24:381][459]LogSlate: Window '프로젝트 세팅' being destroyed
+[2020.03.13-04.57.17:901][664]LogEditorViewport: Clicking on Actor (LMB): ABSection (ABSection3)
+[2020.03.13-04.57.19:027][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-04.57.19:126][697]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.13-04.57.19:182][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-04.57.19:183][697]PIE: New page: PIE 세션: Step4 (2020. 3. 13. 오후 10:57:19)
+[2020.03.13-04.57.19:183][697]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2020.03.13-04.57.19:192][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008993s)
+[2020.03.13-04.57.19:195][697]LogAIModule: Creating AISystem for world Step4
+[2020.03.13-04.57.19:196][697]LogPlayLevel: PIE: World Init took: (0.003029s)
+[2020.03.13-04.57.19:196][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.012624s)
+[2020.03.13-04.57.19:224][697]ArenaBattle: Warning: UABGameInstance::Init(17)DropExp 20 : 25
+[2020.03.13-04.57.19:953][697]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-04.57.20:046][697]LogInit: FAudioDevice initialized.
+[2020.03.13-04.57.20:083][697]LogLoad: Game class is 'ABGameMode'
+[2020.03.13-04.57.20:085][697]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 60) at 2020.03.13-13.57.20
+[2020.03.13-04.57.20:085][697]LogWorld: Bringing up level for play took: 0.001067
+[2020.03.13-04.57.20:086][697]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.13-04.57.20:086][697]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.13-04.57.20:087][697]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-04.57.20:087][697]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-04.57.20:088][697]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.13-04.57.20:088][697]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.13-04.57.20:088][697]PIE: /Game/Book/Maps/UEDPIE_0_Step4 에 대한 에디터에서 플레이 시작 시간: 0.866
+[2020.03.13-04.57.24:239][857]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-04.57.24:240][857]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-04.57.29:052][ 26]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.13-04.57.30:199][ 61]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.30:200][ 61]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.30:200][ 61]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.30:423][ 68]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-04.57.30:423][ 68]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.30:423][ 68]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-04.57.30:467][ 70]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.30:677][ 79]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.30:709][ 80]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.30:709][ 80]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.30:709][ 80]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.31:160][ 99]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.32:014][140]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-04.57.32:015][140]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.32:015][140]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-04.57.32:088][143]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.32:261][149]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.32:933][179]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.32:933][179]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.32:933][179]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.33:517][209]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-04.57.33:517][209]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.33:518][209]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-04.57.33:779][220]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.34:803][266]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.35:311][282]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.35:511][289]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.35:776][297]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.35:776][297]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.35:777][297]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.36:444][321]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.36:608][326]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-04.57.36:608][326]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.36:609][326]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-04.57.36:882][333]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.37:302][348]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.37:303][348]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.37:303][348]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.38:407][384]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.38:745][397]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.38:745][397]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.38:746][397]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.39:019][405]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.39:227][413]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.39:228][413]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.39:228][413]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.39:685][428]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.39:968][439]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.40:607][461]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.41:274][483]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-04.57.41:275][483]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.41:275][483]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-04.57.41:469][491]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.41:470][491]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.41:470][491]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.41:494][492]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.42:717][534]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.42:717][534]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.42:717][534]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.42:764][536]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_0
+[2020.03.13-04.57.42:764][536]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.42:765][536]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-04.57.42:989][542]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.43:023][543]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.43:206][547]ArenaBattle: Warning: AABCharacter::AttackCheck(396)Hit ActorName: ABCharacter_1
+[2020.03.13-04.57.43:207][547]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit : 10.000000
+[2020.03.13-04.57.43:207][547]ArenaBattle: Warning: AABCharacter::TakeDamage(200)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-04.57.43:207][547]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_d083f2c60cda291149443bee8fc6767e>::operator ()(182)OnHPIsZero
+[2020.03.13-04.57.43:668][562]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.44:574][597]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.44:575][597]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.52:100][883]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-04.57.52:789][915]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.07.47:242][683]LogHotReload: New module detected: UE4Editor-ArenaBattle-4512.dll
+[2020.03.13-05.07.48:932][689]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.13-05.07.49:697][689]LogClass: ABCharacterData HotReload.
+[2020.03.13-05.07.49:705][689]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.13-05.07.49:862][689]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.13-05.07.49:916][689]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.13-05.07.49:963][689]LogHotReload: Re-instancing ABSection after hot-reload.
+[2020.03.13-05.07.50:067][689]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0046 seconds. Added 17 classes and 2 folders.
+[2020.03.13-05.07.50:069][689]Display: HotReload successful (7 functions remapped  1 scriptstructs remapped)
+[2020.03.13-05.07.50:136][689]LogContentBrowser: Native class hierarchy populated in 0.0153 seconds. Added 2471 classes and 565 folders.
+[2020.03.13-05.07.50:175][689]Display: HotReload took  1.2s.
+[2020.03.13-05.07.53:101][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-05.07.53:210][736]LogTemp: Repeating last play command: 선택된 뷰포트
+[2020.03.13-05.07.53:263][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.13-05.07.53:264][736]PIE: New page: PIE 세션: Step4 (2020. 3. 13. 오후 11:07:53)
+[2020.03.13-05.07.53:264][736]LogPlayLevel: Creating play world package: /Game/Book/Maps/UEDPIE_0_Step4
+[2020.03.13-05.07.53:274][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009584s)
+[2020.03.13-05.07.53:276][736]LogAIModule: Creating AISystem for world Step4
+[2020.03.13-05.07.53:277][736]LogPlayLevel: PIE: World Init took: (0.002135s)
+[2020.03.13-05.07.53:277][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Book/Maps/Step4.Step4 to /Game/Book/Maps/UEDPIE_0_Step4.Step4 (0.013002s)
+[2020.03.13-05.07.53:298][736]ArenaBattle: Warning: UABGameInstance::Init(17)DropExp 20 : 25
+[2020.03.13-05.07.53:980][736]LogInit: XAudio2 using '헤드폰(Realtek(R) Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2020.03.13-05.07.54:085][736]LogInit: FAudioDevice initialized.
+[2020.03.13-05.07.54:115][736]LogLoad: Game class is 'ABGameMode'
+[2020.03.13-05.07.54:117][736]LogWorld: Bringing World /Game/Book/Maps/UEDPIE_0_Step4.Step4 up for play (max tick rate 60) at 2020.03.13-14.07.54
+[2020.03.13-05.07.54:117][736]LogWorld: Bringing up level for play took: 0.001731
+[2020.03.13-05.07.54:118][736]ArenaBattle: Warning: AABPlayerController::PostInitializeComponents(8)
+[2020.03.13-05.07.54:119][736]ArenaBattle: Warning: AABGameMode::PostLogin(17)PostLogin Begin
+[2020.03.13-05.07.54:120][736]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-05.07.54:121][736]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-05.07.54:121][736]ArenaBattle: Warning: AABPlayerController::Possess(14)
+[2020.03.13-05.07.54:121][736]ArenaBattle: Warning: AABGameMode::PostLogin(19)PostLogin End
+[2020.03.13-05.07.54:122][736]PIE: /Game/Book/Maps/UEDPIE_0_Step4 에 대한 에디터에서 플레이 시작 시간: 0.9
+[2020.03.13-05.07.59:525][910]ArenaBattle: Warning: UABCharacterStatComponent::SetNewLevel(52)Level (1 : 100.000000) data set up
+[2020.03.13-05.07.59:527][910]ArenaBattle: Warning: UABCharacterWidget::BindCharacterStat(10)NewCharacterStat true
+[2020.03.13-05.07.59:927][917]LogSkeletalMesh: Building Skeletal Mesh SK_CharM_Ragged0...
+[2020.03.13-05.07.59:942][917]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/InfinityBladeWarriors/Character/CompleteCharacters/SK_CharM_Ragged0.SK_CharM_Ragged0
+[2020.03.13-05.08.02:002][919]LogTexture: Display: 텍스처 빌드: T_CharM_Ragged_D (DXT1, 2048X2048)
+[2020.03.13-05.08.02:037][920]LogMaterial: Missing cached shader map for material M_Char_Ragged, compiling. 
+[2020.03.13-05.08.02:107][921]LogShaderCompilers: Display: Shaders left to compile 60
+[2020.03.13-05.08.02:107][921]LogShaderCompilers: Display: Shaders left to compile 50
+[2020.03.13-05.08.02:107][921]LogShaderCompilers: Display: Shaders left to compile 40
+[2020.03.13-05.08.02:107][921]LogShaderCompilers: Display: Shaders left to compile 30
+[2020.03.13-05.08.05:955][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-05.08.07:378][ 63]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.07:379][ 63]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.07:379][ 63]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.07:680][ 70]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.09:231][108]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.09:648][119]ArenaBattle: Warning: AABItemBox::OnCharacterOverlap(59)
+[2020.03.13-05.08.12:169][178]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.12:426][184]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.12:426][184]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.12:427][184]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.12:595][189]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.12:595][189]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.12:595][189]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.12:841][195]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.12:842][195]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.13:127][202]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.13:127][202]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.13:128][202]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.13:746][218]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.14:171][229]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.14:171][229]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.14:172][229]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.14:430][237]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.14:617][243]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.14:617][243]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.14:618][243]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.15:709][271]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.15:710][271]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.15:710][271]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.15:982][278]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.16:077][279]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.16:077][279]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.16:077][279]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.16:307][286]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.16:554][292]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.16:554][292]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.16:555][292]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.17:014][302]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.17:293][310]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.17:293][310]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.17:293][310]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.17:294][310]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.17:294][310]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.17:294][310]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.17:552][317]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.17:951][327]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.18:800][350]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.18:801][350]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.18:801][350]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.18:881][352]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.18:881][352]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.18:882][352]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.19:140][359]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.20:230][387]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.20:231][387]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.20:231][387]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.20:473][393]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.20:517][394]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_0
+[2020.03.13-05.08.20:517][394]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.20:517][394]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_0 / DamageCauser : ABCharacter_1 / took Damage : 10.000000 
+[2020.03.13-05.08.20:714][399]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.20:714][399]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.20:714][399]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.20:749][400]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.21:143][411]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.21:434][418]ArenaBattle: Warning: AABCharacter::AttackCheck(397)Hit ActorName: ABCharacter_1
+[2020.03.13-05.08.21:435][418]ArenaBattle: Warning: AABCharacter::AttackCheck(398)Hit : 10.000000
+[2020.03.13-05.08.21:435][418]ArenaBattle: Warning: AABCharacter::TakeDamage(201)Actor : ABCharacter_1 / DamageCauser : ABCharacter_0 / took Damage : 10.000000 
+[2020.03.13-05.08.21:435][418]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_831245503c76f79b68a92bcc303fb5e9>::operator ()(182)OnHPIsZero
+[2020.03.13-05.08.22:052][434]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.22:823][453]LogShaderCompilers: Display: Shaders left to compile 20
+[2020.03.13-05.08.25:917][529]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.27:063][558]LogShaderCompilers: Display: Shaders left to compile 10
+[2020.03.13-05.08.27:719][574]ArenaBattle: Warning: AABCharacter::PostInitializeComponents::<lambda_0400e82e599772fde5afa7728c756fc6>::operator ()(169)OnNextAttackCheck
+[2020.03.13-05.08.35:738][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-05.09.05:754][860]LogHotReload: New module detected: UE4Editor-ArenaBattle-9025.dll
+[2020.03.13-05.09.07:474][866]LogHotReload: Starting Hot-Reload from IDE
+[2020.03.13-05.09.08:324][866]LogClass: ABCharacterData HotReload.
+[2020.03.13-05.09.08:329][866]LogHotReload: Re-instancing ABCharacter after hot-reload.
+[2020.03.13-05.09.08:392][866]LogHotReload: Re-instancing ABItemBox after hot-reload.
+[2020.03.13-05.09.08:448][866]LogHotReload: Re-instancing ABPawn after hot-reload.
+[2020.03.13-05.09.08:503][866]LogHotReload: Re-instancing ABSection after hot-reload.
+[2020.03.13-05.09.08:632][866]LogContentBrowser: Native class hierarchy updated for 'ArenaBattle' in 0.0040 seconds. Added 17 classes and 2 folders.
+[2020.03.13-05.09.08:634][866]Display: HotReload successful (7 functions remapped  1 scriptstructs remapped)
+[2020.03.13-05.09.08:704][866]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2471 classes and 565 folders.
+[2020.03.13-05.09.08:743][866]Display: HotReload took  1.3s.
+[2020.03.13-05.12.49:531][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.03.13-05.12.52:348][568]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.03.13-05.12.54:129][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.03.13-05.13.02:849][700]LogSlate: Window '콘텐츠 저장' being destroyed
+[2020.03.13-05.13.02:961][700]LogSlate: Window 'ArenaBattle - 언리얼 에디터' being destroyed
+[2020.03.13-05.13.03:336][701]Cmd: QUIT_EDITOR
+[2020.03.13-05.13.04:330][701]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2020.03.13-05.13.04:347][701]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.03.13-05.13.04:348][701]LogExit: Preparing to exit.
+[2020.03.13-05.13.05:529][701]LogDirectoryWatcher: A directory notification for 'C:/dev/ArenaBattle/Content/' was aborted.
+[2020.03.13-05.13.05:615][701]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001a5fb516b60, Size=24
+[2020.03.13-05.13.05:620][701]LogExit: Editor shut down
+[2020.03.13-05.13.05:679][701]LogExit: Transaction tracking system shut down
+[2020.03.13-05.13.05:854][701]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.03.13-05.13.05:854][701]LogDirectoryWatcher: A directory notification for '../../../../../../dev/ArenaBattle/Content/' was aborted.
+[2020.03.13-05.13.05:854][701]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2020.03.13-05.13.05:854][701]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2020.03.13-05.13.05:855][701]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.03.13-05.13.05:855][701]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.03.13-05.13.05:855][701]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.03.13-05.13.05:855][701]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.03.13-05.13.06:077][701]LogExit: Object subsystem successfully closed.
+[2020.03.13-05.13.06:114][701]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.03.13-05.13.06:123][701]LogD3D11RHI: Shutdown
+[2020.03.13-05.13.06:123][701]LogD3D11RHI: CleanupD3DDevice
+[2020.03.13-05.13.06:130][701]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.03.13-05.13.06:190][701]LogModuleManager: Shutting down and abandoning module ArenaBattle (585)
+[2020.03.13-05.13.06:190][701]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (583)
+[2020.03.13-05.13.06:190][701]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (580)
+[2020.03.13-05.13.06:190][701]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (578)
+[2020.03.13-05.13.06:190][701]LogModuleManager: Shutting down and abandoning module SceneOutliner (576)
+[2020.03.13-05.13.06:190][701]LogModuleManager: Shutting down and abandoning module AddContentDialog (574)
+[2020.03.13-05.13.06:191][701]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2020.03.13-05.13.06:209][701]LogModuleManager: Shutting down and abandoning module WidgetCarousel (573)
+[2020.03.13-05.13.06:209][701]LogModuleManager: Shutting down and abandoning module EditorWidgets (570)
+[2020.03.13-05.13.06:209][701]LogModuleManager: Shutting down and abandoning module CollectionManager (568)
+[2020.03.13-05.13.06:209][701]LogDirectoryWatcher: A directory notification for 'C:/dev/ArenaBattle/Content/Collections/' was aborted.
+[2020.03.13-05.13.06:209][701]LogDirectoryWatcher: A directory notification for 'C:/dev/ArenaBattle/Content/Developers/pth08/Collections/' was aborted.
+[2020.03.13-05.13.06:209][701]LogDirectoryWatcher: A directory notification for 'C:/dev/ArenaBattle/Saved/Collections/' was aborted.
+[2020.03.13-05.13.06:209][701]LogModuleManager: Shutting down and abandoning module StatsViewer (566)
+[2020.03.13-05.13.06:210][701]LogModuleManager: Shutting down and abandoning module FoliageEdit (564)
+[2020.03.13-05.13.06:210][701]LogModuleManager: Shutting down and abandoning module LandscapeEditor (562)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module MeshPaintMode (560)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (558)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module ActorPickerMode (556)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module GeometryMode (554)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module TextureAlignMode (552)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module BspMode (550)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (548)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module HardwareSurvey (546)
+[2020.03.13-05.13.06:211][701]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (544)
+[2020.03.13-05.13.06:212][701]LogModuleManager: Shutting down and abandoning module AutomationWorker (542)
+[2020.03.13-05.13.06:212][701]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (540)
+[2020.03.13-05.13.06:212][701]LogModuleManager: Shutting down and abandoning module SequenceRecorder (539)
+[2020.03.13-05.13.06:212][701]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (536)
+[2020.03.13-05.13.06:213][701]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (534)
+[2020.03.13-05.13.06:214][701]LogModuleManager: Shutting down and abandoning module PlacementMode (533)
+[2020.03.13-05.13.06:214][701]LogModuleManager: Shutting down and abandoning module MaterialEditor (532)
+[2020.03.13-05.13.06:216][701]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (528)
+[2020.03.13-05.13.06:216][701]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (526)
+[2020.03.13-05.13.06:216][701]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (524)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (522)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (520)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (518)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (516)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (514)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (512)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (510)
+[2020.03.13-05.13.06:217][701]LogModuleManager: Shutting down and abandoning module CharacterAI (508)
+[2020.03.13-05.13.06:218][701]LogModuleManager: Shutting down and abandoning module SmartSnapping (506)
+[2020.03.13-05.13.06:218][701]LogModuleManager: Shutting down and abandoning module SessionServices (504)
+[2020.03.13-05.13.06:218][701]LogModuleManager: Shutting down and abandoning module ViewportSnapping (502)
+[2020.03.13-05.13.06:218][701]LogModuleManager: Shutting down and abandoning module ViewportInteraction (500)
+[2020.03.13-05.13.06:218][701]LogModuleManager: Shutting down and abandoning module ClothPainter (498)
+[2020.03.13-05.13.06:218][701]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (497)
+[2020.03.13-05.13.06:219][701]LogModuleManager: Shutting down and abandoning module LogVisualizer (494)
+[2020.03.13-05.13.06:220][701]LogModuleManager: Shutting down and abandoning module IntroTutorials (492)
+[2020.03.13-05.13.06:221][701]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (491)
+[2020.03.13-05.13.06:222][701]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (488)
+[2020.03.13-05.13.06:222][701]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (486)
+[2020.03.13-05.13.06:222][701]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (484)
+[2020.03.13-05.13.06:222][701]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (483)
+[2020.03.13-05.13.06:981][701]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (480)
+[2020.03.13-05.13.06:981][701]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (478)
+[2020.03.13-05.13.06:981][701]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (476)
+[2020.03.13-05.13.06:981][701]LogModuleManager: Shutting down and abandoning module InputBindingEditor (474)
+[2020.03.13-05.13.06:982][701]LogModuleManager: Shutting down and abandoning module MergeActors (472)
+[2020.03.13-05.13.06:982][701]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (470)
+[2020.03.13-05.13.06:983][701]LogModuleManager: Shutting down and abandoning module LocalizationService (469)
+[2020.03.13-05.13.06:983][701]LogModuleManager: Shutting down and abandoning module HardwareTargeting (466)
+[2020.03.13-05.13.06:983][701]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (464)
+[2020.03.13-05.13.06:983][701]LogModuleManager: Shutting down and abandoning module UndoHistory (462)
+[2020.03.13-05.13.06:983][701]LogModuleManager: Shutting down and abandoning module XmlParser (460)
+[2020.03.13-05.13.06:984][701]LogModuleManager: Shutting down and abandoning module Blutility (458)
+[2020.03.13-05.13.06:984][701]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (456)
+[2020.03.13-05.13.06:984][701]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (455)
+[2020.03.13-05.13.06:984][701]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (452)
+[2020.03.13-05.13.06:985][701]LogModuleManager: Shutting down and abandoning module SettingsEditor (450)
+[2020.03.13-05.13.06:985][701]LogModuleManager: Shutting down and abandoning module ProjectLauncher (448)
+[2020.03.13-05.13.06:985][701]LogModuleManager: Shutting down and abandoning module SessionFrontend (446)
+[2020.03.13-05.13.06:985][701]LogModuleManager: Shutting down and abandoning module ProfilerClient (444)
+[2020.03.13-05.13.06:986][701]LogModuleManager: Shutting down and abandoning module DeviceManager (442)
+[2020.03.13-05.13.06:986][701]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (441)
+[2020.03.13-05.13.07:041][701]LogModuleManager: Shutting down and abandoning module AutomationController (438)
+[2020.03.13-05.13.07:041][701]LogModuleManager: Shutting down and abandoning module AutomationWindow (436)
+[2020.03.13-05.13.07:043][701]LogModuleManager: Shutting down and abandoning module Layers (434)
+[2020.03.13-05.13.07:044][701]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (432)
+[2020.03.13-05.13.07:044][701]LogModuleManager: Shutting down and abandoning module DetailCustomizations (430)
+[2020.03.13-05.13.07:045][701]LogModuleManager: Shutting down and abandoning module PackagesDialog (428)
+[2020.03.13-05.13.07:045][701]LogModuleManager: Shutting down and abandoning module Persona (426)
+[2020.03.13-05.13.07:045][701]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (425)
+[2020.03.13-05.13.07:046][701]LogModuleManager: Shutting down and abandoning module AnimGraph (423)
+[2020.03.13-05.13.07:046][701]LogModuleManager: Shutting down and abandoning module Kismet (420)
+[2020.03.13-05.13.07:046][701]LogModuleManager: Shutting down and abandoning module GraphEditor (418)
+[2020.03.13-05.13.07:048][701]LogModuleManager: Shutting down and abandoning module ClassViewer (416)
+[2020.03.13-05.13.07:048][701]LogModuleManager: Shutting down and abandoning module Toolbox (414)
+[2020.03.13-05.13.07:048][701]LogModuleManager: Shutting down and abandoning module ModuleUI (412)
+[2020.03.13-05.13.07:048][701]LogModuleManager: Shutting down and abandoning module MovieSceneTools (410)
+[2020.03.13-05.13.07:049][701]LogModuleManager: Shutting down and abandoning module OutputLog (408)
+[2020.03.13-05.13.07:049][701]LogModuleManager: Shutting down and abandoning module GammaUI (406)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module Documentation (404)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (402)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module MovieScene (400)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (398)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module LauncherPlatform (396)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module AnalyticsET (394)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module PortalServices (392)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module PortalRpc (390)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module MessagingRpc (388)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module AIModule (386)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module GameplayDebugger (385)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module AITestSuite (383)
+[2020.03.13-05.13.07:050][701]LogModuleManager: Shutting down and abandoning module ProfilerService (380)
+[2020.03.13-05.13.07:150][701]LogModuleManager: Shutting down and abandoning module TaskGraph (378)
+[2020.03.13-05.13.07:151][701]LogModuleManager: Shutting down and abandoning module SteamVRController (376)
+[2020.03.13-05.13.07:151][701]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (374)
+[2020.03.13-05.13.07:151][701]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (372)
+[2020.03.13-05.13.07:151][701]LogModuleManager: Shutting down and abandoning module OculusInput (370)
+[2020.03.13-05.13.07:151][701]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (368)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (366)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module CableComponent (364)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module AudioCapture (362)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (360)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module AndroidPermission (358)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (354)
+[2020.03.13-05.13.07:152][701]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (352)
+[2020.03.13-05.13.07:153][701]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (350)
+[2020.03.13-05.13.07:153][701]LogModuleManager: Shutting down and abandoning module MediaCompositing (348)
+[2020.03.13-05.13.07:153][701]LogModuleManager: Shutting down and abandoning module LinearTimecode (346)
+[2020.03.13-05.13.07:153][701]LogModuleManager: Shutting down and abandoning module ImgMedia (344)
+[2020.03.13-05.13.07:158][701]LogModuleManager: Shutting down and abandoning module HTML5Networking (342)
+[2020.03.13-05.13.07:158][701]LogModuleManager: Shutting down and abandoning module AlembicImporter (340)
+[2020.03.13-05.13.07:158][701]LogModuleManager: Shutting down and abandoning module AlembicLibrary (339)
+[2020.03.13-05.13.07:159][701]LogModuleManager: Shutting down and abandoning module GeometryCache (338)
+[2020.03.13-05.13.07:159][701]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (337)
+[2020.03.13-05.13.07:159][701]LogModuleManager: Shutting down and abandoning module DatasmithContent (332)
+[2020.03.13-05.13.07:159][701]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (330)
+[2020.03.13-05.13.07:159][701]LogModuleManager: Shutting down and abandoning module PluginBrowser (328)
+[2020.03.13-05.13.07:160][701]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (326)
+[2020.03.13-05.13.07:161][701]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (324)
+[2020.03.13-05.13.07:161][701]LogModuleManager: Shutting down and abandoning module CryptoKeys (322)
+[2020.03.13-05.13.07:161][701]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (320)
+[2020.03.13-05.13.07:161][701]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (318)
+[2020.03.13-05.13.07:161][701]LogModuleManager: Shutting down and abandoning module UObjectPlugin (316)
+[2020.03.13-05.13.07:161][701]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (314)
+[2020.03.13-05.13.07:162][701]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (312)
+[2020.03.13-05.13.07:164][701]LogModuleManager: Shutting down and abandoning module GitSourceControl (310)
+[2020.03.13-05.13.07:164][701]LogModuleManager: Shutting down and abandoning module SourceControl (309)
+[2020.03.13-05.13.07:165][701]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (306)
+[2020.03.13-05.13.07:165][701]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2020.03.13-05.13.07:165][701]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2020.03.13-05.13.07:165][701]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2020.03.13-05.13.07:165][701]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module MeshPaint (297)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (292)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (290)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module PhysXVehicles (288)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module OculusEditor (286)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (284)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (282)
+[2020.03.13-05.13.07:166][701]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (280)
+[2020.03.13-05.13.07:167][701]LogModuleManager: Shutting down and abandoning module ActorSequence (278)
+[2020.03.13-05.13.07:167][701]LogModuleManager: Shutting down and abandoning module UdpMessaging (276)
+[2020.03.13-05.13.07:267][701]LogModuleManager: Shutting down and abandoning module TcpMessaging (274)
+[2020.03.13-05.13.07:369][701]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (272)
+[2020.03.13-05.13.07:369][701]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (270)
+[2020.03.13-05.13.07:369][701]LogModuleManager: Shutting down and abandoning module FacialAnimation (268)
+[2020.03.13-05.13.07:369][701]LogModuleManager: Shutting down and abandoning module DataValidation (266)
+[2020.03.13-05.13.07:369][701]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (264)
+[2020.03.13-05.13.07:369][701]LogModuleManager: Shutting down and abandoning module LevelEditor (263)
+[2020.03.13-05.13.07:373][701]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (262)
+[2020.03.13-05.13.07:373][701]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (260)
+[2020.03.13-05.13.07:373][701]LogModuleManager: Shutting down and abandoning module MainFrame (258)
+[2020.03.13-05.13.07:374][701]LogModuleManager: Shutting down and abandoning module HotReload (257)
+[2020.03.13-05.13.07:374][701]LogDirectoryWatcher: A directory notification for 'C:/dev/ArenaBattle/Binaries/Win64' was aborted.
+[2020.03.13-05.13.07:374][701]LogModuleManager: Shutting down and abandoning module ContentBrowser (253)
+[2020.03.13-05.13.07:375][701]LogModuleManager: Shutting down and abandoning module TreeMap (251)
+[2020.03.13-05.13.07:375][701]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (248)
+[2020.03.13-05.13.07:375][701]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (246)
+[2020.03.13-05.13.07:376][701]LogModuleManager: Shutting down and abandoning module LiveLink (244)
+[2020.03.13-05.13.08:251][701]LogModuleManager: Shutting down and abandoning module Paper2D (242)
+[2020.03.13-05.13.08:251][701]LogModuleManager: Shutting down and abandoning module ArenaBattleSetting (240)
+[2020.03.13-05.13.08:251][701]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (238)
+[2020.03.13-05.13.08:252][701]LogModuleManager: Shutting down and abandoning module WmfMedia (236)
+[2020.03.13-05.13.08:254][701]LogModuleManager: Shutting down and abandoning module Media (235)
+[2020.03.13-05.13.08:260][701]LogModuleManager: Shutting down and abandoning module PacketHandler (232)
+[2020.03.13-05.13.08:260][701]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (230)
+[2020.03.13-05.13.08:260][701]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (228)
+[2020.03.13-05.13.08:261][701]LogModuleManager: Shutting down and abandoning module MediaAssets (226)
+[2020.03.13-05.13.08:261][701]LogModuleManager: Shutting down and abandoning module Overlay (224)
+[2020.03.13-05.13.08:261][701]LogModuleManager: Shutting down and abandoning module OverlayEditor (223)
+[2020.03.13-05.13.08:261][701]LogModuleManager: Shutting down and abandoning module VREditor (220)
+[2020.03.13-05.13.08:262][701]LogModuleManager: Shutting down and abandoning module StringTableEditor (218)
+[2020.03.13-05.13.08:262][701]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (216)
+[2020.03.13-05.13.08:262][701]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (214)
+[2020.03.13-05.13.08:263][701]LogModuleManager: Shutting down and abandoning module FunctionalTesting (212)
+[2020.03.13-05.13.08:263][701]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (210)
+[2020.03.13-05.13.08:263][701]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (209)
+[2020.03.13-05.13.08:264][701]LogModuleManager: Shutting down and abandoning module UMG (206)
+[2020.03.13-05.13.08:264][701]LogModuleManager: Shutting down and abandoning module UMGEditor (205)
+[2020.03.13-05.13.08:265][701]LogModuleManager: Shutting down and abandoning module Sequencer (204)
+[2020.03.13-05.13.08:265][701]LogModuleManager: Shutting down and abandoning module MessageLog (201)
+[2020.03.13-05.13.08:265][701]LogModuleManager: Shutting down and abandoning module SlateReflector (196)
+[2020.03.13-05.13.08:267][701]LogModuleManager: Shutting down and abandoning module Slate (194)
+[2020.03.13-05.13.08:267][701]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module MRMesh (190)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (188)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (186)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module XAudio2 (184)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module Networking (182)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module Core (180)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module LevelSequence (178)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module KismetCompiler (176)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module MeshUtilities (174)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (173)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (172)
+[2020.03.13-05.13.08:270][701]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (171)
+[2020.03.13-05.13.08:271][701]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (169)
+[2020.03.13-05.13.08:271][701]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (167)
+[2020.03.13-05.13.08:272][701]LogModuleManager: Shutting down and abandoning module MaterialBaking (163)
+[2020.03.13-05.13.08:272][701]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (159)
+[2020.03.13-05.13.08:278][701]LogModuleManager: Shutting down and abandoning module DerivedDataCache (156)
+[2020.03.13-05.13.08:311][701]LogDerivedDataCache: Shutdown
+[2020.03.13-05.13.08:311][701]LogModuleManager: Shutting down and abandoning module XGEController (154)
+[2020.03.13-05.13.08:312][701]LogModuleManager: Shutting down and abandoning module TargetPlatform (152)
+[2020.03.13-05.13.08:312][701]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (151)
+[2020.03.13-05.13.08:312][701]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (149)
+[2020.03.13-05.13.08:313][701]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (147)
+[2020.03.13-05.13.08:314][701]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (145)
+[2020.03.13-05.13.08:314][701]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (143)
+[2020.03.13-05.13.08:315][701]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (141)
+[2020.03.13-05.13.08:316][701]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (139)
+[2020.03.13-05.13.08:316][701]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (137)
+[2020.03.13-05.13.08:316][701]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (135)
+[2020.03.13-05.13.08:317][701]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (133)
+[2020.03.13-05.13.08:317][701]LogModuleManager: Shutting down and abandoning module ImageWrapper (132)
+[2020.03.13-05.13.08:317][701]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (129)
+[2020.03.13-05.13.08:317][701]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (127)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (125)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (123)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (121)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (119)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (117)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (115)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (113)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Messaging (111)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (109)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (107)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (105)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (103)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (101)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (99)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (97)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (95)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (93)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (91)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (89)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (79)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (77)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (75)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (73)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (71)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module InputCore (68)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module Settings (66)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module PhysXCooking (64)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module SteamVR (62)
+[2020.03.13-05.13.08:318][701]LogModuleManager: Shutting down and abandoning module OculusHMD (60)
+[2020.03.13-05.13.08:319][701]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (58)
+[2020.03.13-05.13.08:319][701]LogModuleManager: Shutting down and abandoning module AppleARKit (56)
+[2020.03.13-05.13.08:319][701]LogModuleManager: Shutting down and abandoning module AugmentedReality (53)
+[2020.03.13-05.13.08:319][701]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (50)
+[2020.03.13-05.13.08:319][701]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (46)
+[2020.03.13-05.13.08:320][701]LogModuleManager: Shutting down and abandoning module XMPP (45)
+[2020.03.13-05.13.08:321][701]LogModuleManager: Shutting down and abandoning module HTTP (43)
+[2020.03.13-05.13.08:321][701]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.03.13-05.13.08:321][701]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B2F5F14A9-4EA0-8F84-5A71-16AD94699AF3%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=740da03f4792943c42af93a8c1c8b86c%7C2397b827324e4e5598fb5ad28a0dc807%7C83286504-9604-4079-bf43-91e8b426d79c&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.03.13-05.13.08:345][701]LogModuleManager: Shutting down and abandoning module SSL (42)
+[2020.03.13-05.13.08:348][701]LogModuleManager: Shutting down and abandoning module DesktopPlatform (38)
+[2020.03.13-05.13.08:348][701]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.03.13-05.13.08:349][701]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.03.13-05.13.08:351][701]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.03.13-05.13.08:353][701]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.03.13-05.13.08:353][701]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.03.13-05.13.08:353][701]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.03.13-05.13.08:353][701]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.03.13-05.13.08:387][701]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.03.13-05.13.08:388][701]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.03.13-05.13.08:394][701]LogExit: Exiting.
+[2020.03.13-05.13.08:410][701]Log file closed, 03/13/20 14:13:08
