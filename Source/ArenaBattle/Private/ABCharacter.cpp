@@ -177,6 +177,11 @@ ECharacterState AABCharacter::GetCharacterState() const
 	return CurrentState;
 }
 
+int32 AABCharacter::GetExp() const
+{
+	return CharacterStat->GetDropExp();
+}
+
 // Called when the game starts or when spawned
 void AABCharacter::BeginPlay()
 {
@@ -327,8 +332,16 @@ float AABCharacter::TakeDamage(float DamageAmount, FDamageEvent const & DamageEv
 	ABLOG(Warning, TEXT("Actor : %s / DamageCauser : %s / took Damage : %f "), *GetName(), *DamageCauser->GetName(), FinalDamage);
 	ABCHECK(nullptr != CharacterStat, 0.0f);
 	CharacterStat->SetDamage(FinalDamage);
-	//ABLOG(Warning, TEXT("======== Actor : %s SetDamage ======== "), *GetName(), FinalDamage);
 	
+	if (CurrentState == ECharacterState::DEAD)
+	{
+		if (EventInstigator->IsPlayerController())
+		{
+			auto ABPlayerController = Cast<AABPlayerController>(EventInstigator);
+			ABCHECK(nullptr != ABPlayerController, 0.0f);
+			ABPlayerController->NPCKill(this);
+		}
+	}
 
 	return FinalDamage;
 }
