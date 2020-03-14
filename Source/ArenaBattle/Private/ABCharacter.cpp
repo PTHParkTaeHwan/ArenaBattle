@@ -12,6 +12,7 @@
 #include "ABGameInstance.h"
 #include "ABPlayerController.h"
 #include "ABPlayerState.h"
+#include "ABHUDWidget.h"
 
 // Sets default values
 AABCharacter::AABCharacter()
@@ -101,6 +102,8 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 		{
 			DisableInput(ABPlayerController);
 
+			ABPlayerController->GetHUDWidget()->BindCharacterStat(CharacterStat);
+
 			auto ABPlayerState = Cast<AABPlayerState>(PlayerState);
 			ABCHECK(nullptr != ABPlayerState);
 			CharacterStat->SetNewLevel(ABPlayerState->GetCharacterLevel());
@@ -127,7 +130,7 @@ void AABCharacter::SetCharacterState(ECharacterState NewState)
 
 		if (bIsPlayer)
 		{
-			SetControlMode(EControlMode::DIABLO);
+			SetControlMode(EControlMode::GTA);
 			GetCharacterMovement()->MaxWalkSpeed = 600.0f;
 			EnableInput(ABPlayerController);
 		}

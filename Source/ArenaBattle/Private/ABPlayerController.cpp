@@ -2,6 +2,7 @@
 
 #include "ABPlayerController.h"
 #include "ABHUDWidget.h"
+#include "ABPlayerState.h"
 
 AABPlayerController::AABPlayerController()
 {
@@ -39,6 +40,12 @@ void AABPlayerController::BeginPlay()
 
 	HUDWidget = CreateWidget<UABHUDWidget>(this, HUDWidgetClass);
 	HUDWidget->AddToViewport();
+
+	auto ABPlayerState = Cast<AABPlayerState>(PlayerState);
+	ABCHECK(nullptr != ABPlayerState);
+	HUDWidget->BindPlayerState(ABPlayerState);
+	ABPlayerState->OnPlayerStateChanged.Broadcast();
+
 }
 
 void AABPlayerController::SetupInputComponent()

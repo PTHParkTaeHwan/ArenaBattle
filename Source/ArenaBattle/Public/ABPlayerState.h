@@ -23,7 +23,7 @@ public:
 
 	void InitPlayerData();
 
-	FOnPlayerStateChangeDelgate OnPlayerStateChaged;
+	FOnPlayerStateChangeDelgate OnPlayerStateChanged;
 
 protected:
 	UPROPERTY(Transient)

@@ -18,7 +18,7 @@ void UABHUDWidget::BindPlayerState(AABPlayerState * PlayerState)
 {
 	ABCHECK(nullptr != PlayerState);
 	CurrentPlayerState = PlayerState;
-	PlayerState->OnPlayerStateChaged.AddUObject(this, &UABHUDWidget::UpdatePlayerState);
+	PlayerState->OnPlayerStateChanged.AddUObject(this, &UABHUDWidget::UpdatePlayerState);
 }
 
 void UABHUDWidget::NativeConstruct()
@@ -33,7 +33,6 @@ void UABHUDWidget::NativeConstruct()
 	PlayerName = Cast<UTextBlock>(GetWidgetFromName(TEXT("txtPlayerName")));
 	ABCHECK(nullptr != PlayerName);
 
-
 	PlayerLevel = Cast<UTextBlock>(GetWidgetFromName(TEXT("txtLevel")));
 	ABCHECK(nullptr != PlayerLevel);
 
@@ -47,11 +46,16 @@ void UABHUDWidget::NativeConstruct()
 
 void UABHUDWidget::UpdateCharacterStat()
 {
-	ABCHECK(CurrentCharacterStat.IsVaild());
+	ABCHECK(CurrentCharacterStat.IsValid());
 
-	HPBar->SetPrecent(CurrentCharacterStat->GetHPRatio());
+	HPBar->SetPercent(CurrentCharacterStat->GetHPRatio());
 }
 
 void UABHUDWidget::UpdatePlayerState()
 {
+	ABCHECK(CurrentPlayerState.IsValid());
+
+	PlayerName->SetText(FText::FromString(CurrentPlayerState->GetPlayerName()));
+	PlayerLevel->SetText(FText::FromString(FString::FromInt(CurrentPlayerState->GetCharacterLevel())));
+	CurrentScore->SetText(FText::FromString(FString::FromInt(CurrentPlayerState->GetGameScore())));
 }
