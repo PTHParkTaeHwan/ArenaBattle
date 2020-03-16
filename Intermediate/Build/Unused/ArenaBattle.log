@@ -1,14 +1,30 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading ArenaBattleEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Performing 5 actions (9 in parallel)
-  [3/5] Link UE4Editor-ArenaBattleSetting-2794.lib
-  [2/5] Link UE4Editor-ArenaBattleSetting-2794.dll
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-2794.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-2794.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-2794.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-2794.suppressed.exp 개체를 생성하고 있습니다.
+  Parsing headers for ArenaBattleEditor
+    Running UnrealHeaderTool "C:\dev\ArenaBattle\ArenaBattle.uproject" "C:\dev\ArenaBattle\Intermediate\Build\Win64\ArenaBattleEditor\Development\ArenaBattleEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for ArenaBattleEditor in 10.1067234 seconds
+  Performing 17 actions (4 in parallel)
+  ABPlayerController.gen.cpp
+  ABGameState.gen.cpp
+  ABGameMode.gen.cpp
+  ABPlayerState.gen.cpp
+  ABSection.gen.cpp
+  ABGameMode.cpp
   ABCharacter.cpp
-  [4/5] Link UE4Editor-ArenaBattle-1443.dll
-  [5/5] Link UE4Editor-ArenaBattle-1443.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1443.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1443.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1443.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-1443.suppressed.exp 개체를 생성하고 있습니다.
+  ArenaBattle.init.gen.cpp
+  ABGameState.cpp
+  ABHUDWidget.cpp
+  ABPlayerState.cpp
+  ABSection.cpp
+  ABPlayerController.cpp
+  [14/17] Link UE4Editor-ArenaBattleSetting-8505.dll
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-8505.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-8505.suppressed.exp 개체를 생성하고 있습니다.
+  [15/17] Link UE4Editor-ArenaBattleSetting-8505.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-8505.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-8505.exp 개체를 생성하고 있습니다.
+  [16/17] Link UE4Editor-ArenaBattle-8505.dll
+  [17/17] Link UE4Editor-ArenaBattle-8505.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-8505.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-8505.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-8505.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-8505.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 9.01 seconds (Local executor: 6.62 seconds)
+  Total build time: 45.13 seconds (Local executor: 23.16 seconds)

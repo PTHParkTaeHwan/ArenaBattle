@@ -3,6 +3,8 @@
 #include "ABSection.h"
 #include "ABCharacter.h"
 #include "ABItemBox.h"
+#include "ABPlayerController.h"
+#include "ABGameMode.h"
 
 // Sets default values
 AABSection::AABSection()
@@ -74,12 +76,6 @@ AABSection::AABSection()
 	ItemBoxSpawnTime = 5.0f;
 }
 
-void AABSection::OnConstruction(const FTransform & Transform)
-{
-	Super::OnConstruction(Transform);
-	SetState(bNoBattle ? ESectionState::COMPLETE : ESectionState::READY);
-}
-
 // Called when the game starts or when spawned
 void AABSection::BeginPlay()
 {
@@ -101,6 +97,8 @@ void AABSection::SetState(ESectionState NewState)
 		OperateGates(true);
 		break;
 	case AABSection::ESectionState::BATTLE:
+		ABLOG(Warning, TEXT("======== BATTLE Start ========"));
+
 		Trigger->SetCollisionProfileName(TEXT("NoCollision"));
 		for (UBoxComponent* GateTrigger : GateTriggers)
 		{
@@ -116,6 +114,8 @@ void AABSection::SetState(ESectionState NewState)
 		}), ItemBoxSpawnTime, false);
 		break;
 	case AABSection::ESectionState::COMPLETE:
+		ABLOG(Warning, TEXT("======== Complete ========"));
+
 		Trigger->SetCollisionProfileName(TEXT("NoCollision"));
 		for (UBoxComponent* GateTrigger : GateTriggers)
 		{
@@ -127,6 +127,14 @@ void AABSection::SetState(ESectionState NewState)
 
 	CurrentState = NewState;
 }
+
+void AABSection::OnConstruction(const FTransform & Transform)
+{
+	Super::OnConstruction(Transform);
+	SetState(bNoBattle ? ESectionState::COMPLETE : ESectionState::READY);
+}
+
+
 
 void AABSection::OperateGates(bool bOpen)
 {
@@ -178,7 +186,28 @@ void AABSection::OnGateTriggerBeginOverlap(UPrimitiveComponent * OverlappedCompo
 
 void AABSection::OnNPCSpawn()
 {
-	GetWorld()->SpawnActor<AABCharacter>(GetActorLocation() + FVector::UpVector * 88.0f, FRotator::ZeroRotator);
+	GetWorld()->GetTimerManager().ClearTimer(SpawnNPCTimerHandle);
+	auto KeyNPC = GetWorld()->SpawnActor<AABCharacter>(GetActorLocation() + FVector::UpVector * 88.0f, FRotator::ZeroRotator);
+	if (nullptr != KeyNPC)
+	{
+		KeyNPC->OnDestroyed.AddDynamic(this, &AABSection::OnKeyNPCDestroyed);
+	}
+
+}
+
+void AABSection::OnKeyNPCDestroyed(AActor * DestoryedActor)
+{
+	auto ABCharacter = Cast<AABCharacter>(DestoryedActor);
+	ABCHECK(nullptr != ABCharacter);
+
+	auto ABPlayerController = Cast<AABPlayerController>(ABCharacter->LastHitBy);
+	ABCHECK(nullptr != ABPlayerController);
+
+	auto ABGameMode = Cast<AABGameMode>(GetWorld()->GetAuthGameMode());
+	ABCHECK(nullptr != ABGameMode);
+	ABGameMode->AddScore(ABPlayerController);
+
+	SetState(ESectionState::COMPLETE);
 }
 
 
