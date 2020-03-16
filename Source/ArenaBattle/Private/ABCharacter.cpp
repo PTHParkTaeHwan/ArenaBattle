@@ -62,7 +62,7 @@ AABCharacter::AABCharacter()
 	GetCapsuleComponent()->SetCollisionProfileName(TEXT("ABCharacter"));
 
 	//디버그 모드 설정, 공격시 충돌 탐색 범위가 눈에 보인다.
-	AttackRange = 200.0f;
+	AttackRange = 80.0f;
 	AttackRadius = 50.5f;
 
 	//UI 부착
@@ -180,6 +180,11 @@ ECharacterState AABCharacter::GetCharacterState() const
 int32 AABCharacter::GetExp() const
 {
 	return CharacterStat->GetDropExp();
+}
+
+float AABCharacter::GetFinalAttackRange() const
+{
+	return (nullptr != CurrentWeapon) ? CurrentWeapon->GetAttackRange() : AttackRange;
 }
 
 // Called when the game starts or when spawned
@@ -380,11 +385,20 @@ void AABCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 bool AABCharacter::CanSetWeapon()
 {
-	return (nullptr == CurrentWeapon);
+	return true;
 }
 
 void AABCharacter::SetWeapon(AABWeapon * NewWeapon)
 {
+	ABCHECK(nullptr != NewWeapon);
+
+	if (nullptr != CurrentWeapon)
+	{
+		CurrentWeapon->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		CurrentWeapon->Destroy();
+		CurrentWeapon = nullptr;
+	}
+
 	FName WeaponSocket(TEXT("hand_rSocket"));
 	if (nullptr != NewWeapon)
 	{
@@ -499,12 +513,14 @@ void AABCharacter::AttackEndComboState()
 
 void AABCharacter::AttackCheck()
 {
+	float FinalAttackRange = GetFinalAttackRange();
+
 	FHitResult HitResult;
 	FCollisionQueryParams Params(NAME_None, false, this);
 	bool bResult = GetWorld()->SweepSingleByChannel(
 		HitResult,
 		GetActorLocation(),
-		GetActorLocation() + GetActorForwardVector()*AttackRange,
+		GetActorLocation() + GetActorForwardVector()*FinalAttackRange,
 		FQuat::Identity,
 		ECollisionChannel::ECC_GameTraceChannel2,
 		FCollisionShape::MakeSphere(AttackRadius),
@@ -512,9 +528,9 @@ void AABCharacter::AttackCheck()
 
 #if ENABLE_DRAW_DEBUG
 
-	FVector TraceVec = GetActorForwardVector() * AttackRange;
+	FVector TraceVec = GetActorForwardVector() * FinalAttackRange;
 	FVector Center = GetActorLocation() + TraceVec * 0.5f;
-	float HalfHeight = AttackRange * 0.5f + AttackRadius;
+	float HalfHeight = FinalAttackRange * 0.5f + AttackRadius;
 	FQuat CapsuleRot = FRotationMatrix::MakeFromZ(TraceVec).ToQuat();
 	FColor DrawColor = bResult ? FColor::Green : FColor::Red;
 	float DebugLifeTime = 5.0f;
