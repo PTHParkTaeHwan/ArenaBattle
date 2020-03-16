@@ -187,6 +187,14 @@ float AABCharacter::GetFinalAttackRange() const
 	return (nullptr != CurrentWeapon) ? CurrentWeapon->GetAttackRange() : AttackRange;
 }
 
+float AABCharacter::GetFinalAttackDamage() const
+{
+	float AttackDamage = (nullptr != CurrentWeapon) ? (CharacterStat->GetAttack() + CurrentWeapon->GetAttackDamage()) : CharacterStat->GetAttack();
+
+	float AttackModifier = (nullptr != CurrentWeapon) ? CurrentWeapon->GetAttackModifier() : 1.0f;
+	return AttackDamage * AttackModifier;
+}
+
 // Called when the game starts or when spawned
 void AABCharacter::BeginPlay()
 {
@@ -549,11 +557,8 @@ void AABCharacter::AttackCheck()
 	{
 		if (HitResult.Actor.IsValid())
 		{
-			ABLOG(Warning, TEXT("Hit ActorName: %s"), *HitResult.Actor->GetName());
-			ABLOG(Warning, TEXT("Hit : %f"), CharacterStat->GetAttack());
-			//ABCHECK(nullptr != CharacterStat);
 			FDamageEvent DamageEvent;
-			HitResult.Actor->TakeDamage(CharacterStat->GetAttack(), DamageEvent, GetController(), this);
+			HitResult.Actor->TakeDamage(GetFinalAttackDamage(), DamageEvent, GetController(), this);
 		}
 	}
 }
