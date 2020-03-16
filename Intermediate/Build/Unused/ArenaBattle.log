@@ -1,38 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for ArenaBattleEditor (no existing makefile)
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2787.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-2787.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-3629.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-3629.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-3759.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-3759.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-493.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-493.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5776.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-5776.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6074.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-6074.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8794.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattle-8794.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-3117.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-3117.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-3250.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-3250.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-4003.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-4003.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-5813.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-5813.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-607.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-607.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-890.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-890.pdb".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-92.dll".
-  Deleting old hot reload file: "C:\dev\ArenaBattle\Binaries\Win64\UE4Editor-ArenaBattleSetting-92.pdb".
-  Performing 3 actions (4 in parallel)
-  ABCharacterSelectWidget.cpp
-  [2/3] Link UE4Editor-ArenaBattle.dll
-  [3/3] Link UE4Editor-ArenaBattle.lib
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.exp 개체를 생성하고 있습니다.
-     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle.suppressed.exp 개체를 생성하고 있습니다.
+  Creating makefile for hot reloading ArenaBattleEditor (ini files are newer than UBTMakefile)
+  Compiling game modules for hot reload
+  Performing 6 actions (9 in parallel)
+  [3/6] Link UE4Editor-ArenaBattleSetting-6503.dll
+  [4/6] Link UE4Editor-ArenaBattleSetting-6503.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-6503.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-6503.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-6503.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattleSetting-6503.suppressed.exp 개체를 생성하고 있습니다.
+  ABCharacter.cpp
+  ABGameplayWidget.cpp
+  [5/6] Link UE4Editor-ArenaBattle-6503.dll
+  [6/6] Link UE4Editor-ArenaBattle-6503.lib
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6503.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6503.exp 개체를 생성하고 있습니다.
+     C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6503.suppressed.lib 라이브러리 및 C:\dev\ArenaBattle\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-ArenaBattle-6503.suppressed.exp 개체를 생성하고 있습니다.
   Deploying ArenaBattleEditor Win64 Development...
-  Total build time: 15.27 seconds (Local executor: 6.95 seconds)
+  Total build time: 48.06 seconds (Local executor: 13.23 seconds)
