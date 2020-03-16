@@ -14,14 +14,14 @@ class ARENABATTLE_API AABUIPlayerController : public APlayerController
 {
 	GENERATED_BODY()
 	
-//protected:
-//	virtual void BeginPlay() override;
-//
-//	UPROPERTY(EditDefaultsOnly, BluepritReadwrite, Category = UI)
-//	TSubclassOf<class UUserWidget> UIWidgetClass;	
-//
-//	UPROPERTY()
-//	class UUserWidget* UIWidgetInstance;
+protected:
+	virtual void BeginPlay() override;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadwrite, Category = UI)
+	TSubclassOf<class UUserWidget> UIWidgetClass;	
+
+	UPROPERTY()
+	class UUserWidget* UIWidgetInstance;
 	
 	
 };
