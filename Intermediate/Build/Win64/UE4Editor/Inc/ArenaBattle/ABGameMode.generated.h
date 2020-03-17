@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABGameMode); \
 
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABGameMode_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__ABGameState() { return STRUCT_OFFSET(AABGameMode, ABGameState); }
+	FORCEINLINE static uint32 __PPO__ABGameState() { return STRUCT_OFFSET(AABGameMode, ABGameState); } \
+	FORCEINLINE static uint32 __PPO__ScoreToClear() { return STRUCT_OFFSET(AABGameMode, ScoreToClear); }
 
 
 #define ArenaBattle_Source_ArenaBattle_Public_ABGameMode_h_12_PROLOG
