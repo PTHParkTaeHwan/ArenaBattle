@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_ArenaBattle();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABGameplayWidget_NoRegister();
+	ARENABATTLE_API UClass* Z_Construct_UClass_UABGameplayResultWidget_NoRegister();
 	ARENABATTLE_API UClass* Z_Construct_UClass_AABPlayerState_NoRegister();
 	ARENABATTLE_API UClass* Z_Construct_UClass_UABHUDWidget_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -53,6 +54,13 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_MenuWidget = { UE4CodeGen_Private::EPropertyClass::Object, "MenuWidget", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000080008, 1, nullptr, STRUCT_OFFSET(AABPlayerController, MenuWidget), Z_Construct_UClass_UABGameplayWidget_NoRegister, METADATA_PARAMS(NewProp_MenuWidget_MetaData, ARRAY_COUNT(NewProp_MenuWidget_MetaData)) };
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ResultWidget_MetaData[] = {
+				{ "EditInline", "true" },
+				{ "ModuleRelativePath", "Public/ABPlayerController.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ResultWidget = { UE4CodeGen_Private::EPropertyClass::Object, "ResultWidget", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000080008, 1, nullptr, STRUCT_OFFSET(AABPlayerController, ResultWidget), Z_Construct_UClass_UABGameplayResultWidget_NoRegister, METADATA_PARAMS(NewProp_ResultWidget_MetaData, ARRAY_COUNT(NewProp_ResultWidget_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABPlayerState_MetaData[] = {
 				{ "ModuleRelativePath", "Public/ABPlayerController.h" },
 			};
@@ -65,6 +73,13 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HUDWidget = { UE4CodeGen_Private::EPropertyClass::Object, "HUDWidget", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000080008, 1, nullptr, STRUCT_OFFSET(AABPlayerController, HUDWidget), Z_Construct_UClass_UABHUDWidget_NoRegister, METADATA_PARAMS(NewProp_HUDWidget_MetaData, ARRAY_COUNT(NewProp_HUDWidget_MetaData)) };
+#if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ResultWidgetClass_MetaData[] = {
+				{ "Category", "UI" },
+				{ "ModuleRelativePath", "Public/ABPlayerController.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FClassPropertyParams NewProp_ResultWidgetClass = { UE4CodeGen_Private::EPropertyClass::Class, "ResultWidgetClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000010005, 1, nullptr, STRUCT_OFFSET(AABPlayerController, ResultWidgetClass), Z_Construct_UClass_UABGameplayResultWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_ResultWidgetClass_MetaData, ARRAY_COUNT(NewProp_ResultWidgetClass_MetaData)) };
 #if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MenuWidgetClass_MetaData[] = {
 				{ "Category", "UI" },
@@ -81,8 +96,10 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 			static const UE4CodeGen_Private::FClassPropertyParams NewProp_HUDWidgetClass = { UE4CodeGen_Private::EPropertyClass::Class, "HUDWidgetClass", RF_Public|RF_Transient|RF_MarkAsNative, 0x0024080000010005, 1, nullptr, STRUCT_OFFSET(AABPlayerController, HUDWidgetClass), Z_Construct_UClass_UABHUDWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(NewProp_HUDWidgetClass_MetaData, ARRAY_COUNT(NewProp_HUDWidgetClass_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MenuWidget,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ResultWidget,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ABPlayerState,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HUDWidget,
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ResultWidgetClass,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_MenuWidgetClass,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_HUDWidgetClass,
 			};
@@ -104,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeABPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABPlayerController, 1264032860);
+	IMPLEMENT_CLASS(AABPlayerController, 264850122);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABPlayerController(Z_Construct_UClass_AABPlayerController, &AABPlayerController::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABPlayerController"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABPlayerController);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

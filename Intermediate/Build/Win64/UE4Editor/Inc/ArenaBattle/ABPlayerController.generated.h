@@ -62,8 +62,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AABPlayerController); \
 #define ArenaBattle_Source_ArenaBattle_Public_ABPlayerController_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HUDWidgetClass() { return STRUCT_OFFSET(AABPlayerController, HUDWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__MenuWidgetClass() { return STRUCT_OFFSET(AABPlayerController, MenuWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__ResultWidgetClass() { return STRUCT_OFFSET(AABPlayerController, ResultWidgetClass); } \
 	FORCEINLINE static uint32 __PPO__HUDWidget() { return STRUCT_OFFSET(AABPlayerController, HUDWidget); } \
 	FORCEINLINE static uint32 __PPO__ABPlayerState() { return STRUCT_OFFSET(AABPlayerController, ABPlayerState); } \
+	FORCEINLINE static uint32 __PPO__ResultWidget() { return STRUCT_OFFSET(AABPlayerController, ResultWidget); } \
 	FORCEINLINE static uint32 __PPO__MenuWidget() { return STRUCT_OFFSET(AABPlayerController, MenuWidget); }
 
 

@@ -44,12 +44,19 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 			};
 #endif
 #if WITH_METADATA
+			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ScoreToClear_MetaData[] = {
+				{ "ModuleRelativePath", "Public/ABGameMode.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FIntPropertyParams NewProp_ScoreToClear = { UE4CodeGen_Private::EPropertyClass::Int, "ScoreToClear", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AABGameMode, ScoreToClear), METADATA_PARAMS(NewProp_ScoreToClear_MetaData, ARRAY_COUNT(NewProp_ScoreToClear_MetaData)) };
+#if WITH_METADATA
 			static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ABGameState_MetaData[] = {
 				{ "ModuleRelativePath", "Public/ABGameMode.h" },
 			};
 #endif
 			static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ABGameState = { UE4CodeGen_Private::EPropertyClass::Object, "ABGameState", RF_Public|RF_Transient|RF_MarkAsNative, 0x0040000000000000, 1, nullptr, STRUCT_OFFSET(AABGameMode, ABGameState), Z_Construct_UClass_AABGameState_NoRegister, METADATA_PARAMS(NewProp_ABGameState_MetaData, ARRAY_COUNT(NewProp_ABGameState_MetaData)) };
 			static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[] = {
+				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ScoreToClear,
 				(const UE4CodeGen_Private::FPropertyParamsBase*)&NewProp_ABGameState,
 			};
 			static const FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -70,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeABGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AABGameMode, 1593554964);
+	IMPLEMENT_CLASS(AABGameMode, 1898707507);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AABGameMode(Z_Construct_UClass_AABGameMode, &AABGameMode::StaticClass, TEXT("/Script/ArenaBattle"), TEXT("AABGameMode"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AABGameMode);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
